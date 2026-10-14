@@ -1,9 +1,14 @@
----
-pagination:
-  data: entries
-  size: 1
-  alias: entry
-permalink: "/{{ entry.section }}/{{ entry.subsection }}/{{ entry.slug }}/"
-eleventyComputed:
-  title: "{{ entry.title }}"
+---js
+{
+  pagination: {
+    data: "entries",
+    size: 1,
+    alias: "entry",
+    before: (items) => items.filter((e) => e.hasPage),
+  },
+  permalink: "/{{ entry.section }}/{{ entry.subsection }}/{{ entry.slug }}/",
+  eleventyComputed: {
+    title: "{{ entry.title }}",
+  },
+}
 ---
