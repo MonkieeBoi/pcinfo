@@ -1,3 +1,4 @@
+import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 import { fumenPageCount, fumenSvg } from "./fumen-svg.js";
 import { renderTree } from "./tree.js";
 
@@ -37,6 +38,7 @@ const colorize = (html) =>
         .replaceAll("\n", "<br>");
 
 export default function(eleventyConfig) {
+    eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
     eleventyConfig.addWatchTarget("content/");
     eleventyConfig.addPassthroughCopy("src/js");
     eleventyConfig.addPassthroughCopy("src/css");
@@ -82,5 +84,8 @@ export default function(eleventyConfig) {
                 : [],
     );
 
-    return { dir: { input: "src", output: "_site" } };
+    return {
+        dir: { input: "src", output: "_site" },
+        pathPrefix: process.env.PATH_PREFIX || "/",
+    };
 }
