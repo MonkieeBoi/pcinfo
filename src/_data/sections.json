@@ -3,7 +3,8 @@
     "slug": "2",
     "title": "2nd",
     "subsections": [
-      { "slug": "TIJL", "title": "TIJL" }
+      { "slug": "TIJL", "title": "TIJL" },
+      { "slug": "TIJS", "title": "TIJS" }
     ]
   }
 ]

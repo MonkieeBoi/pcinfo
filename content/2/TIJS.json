@@ -1,0 +1,122 @@
+{
+    "JO": {
+        "title": "JO",
+        "tags": [ "1min" ],
+        "setup": "v115@HhwwHeg0xwR4Eeg0wwR4Aezhh0JeAgHHhQpCeRpg0B?eglRpxhRpi0glQpxhAeT4hlJeAgHHhBthlzhR4AeBtglxwg?lR4DeglPeAgH",
+        "solves": "v115@9gBthlzhR4A8BtglRpg0R4E8Rpi0D8glF8JeAgH"
+    },
+    "OZ": {
+        "title": "OZ",
+        "tags": [ "1min" ],
+        "setup": "v115@9gwhIewhwwGeg0whxwDeR4g0whwwDeR4h0JeAgH9gQ?4IeQ4QpDeAtBeglQ4TpBtxhglQ4QpAeRpAtxhhlJeAgHIhh?lg0zhR4Begli0AtR4CeglxwAtNeAgH",
+        "solves": "v115@9gA8hlg0zhR4B8gli0AtR4D8RpBtE8glRpAtD8JeAg?H"
+    },
+    "OS": {
+        "title": "OS",
+        "tags": [ "1min" ],
+        "setup": "v115@Ghg0wwHeg0xwR4Deh0wwR4CezhJeAgHGhglQpFeR4g?lRpxhRpR4hlQpxhAeRpT4JeAgHHhBthlg0zhBeBtgli0xhD?eglxwNeAgH",
+        "solves": "v115@9gBthlg0zhB8Btgli0R4E8RpR4E8glRpD8JeAgH"
+    },
+    "IZ": {
+        "title": "IZ",
+        "tags": [ "1min" ],
+        "setup": "v115@IhR4FewwR4i0Cexwzhg0DewwJeAglChwhEexhBewhC?eQpxhilwhBtRpT4glwhAeBtQpJeAgHHhilRpQ4h0R4glBeR?pQ4g0R4FeQ4g0BtKeAgH",
+        "solves": "v115@9gilRpwhh0R4glB8Rpwhg0R4F8whBtG8whg0BtA8Je?Agl"
+    },
+    "IS": {
+        "title": "IS",
+        "tags": [ "1min" ],
+        "setup": "v115@9gwwIexwCeh0CewwR4Beg0DeR4Ceg0zhJeAgl9gQpI?eRpCehlCeQpxhR4gl1hR4AeglT4JeAgHIhBthli0RpBeBtg?lBeg0RpBexhglOeAgH",
+        "solves": "v115@9gA8Bthli0RpB8BtglB8g0RpC8R4A8zhB8R4glE8Je?Agl"
+    },
+    "JS": {
+        "title": "JS",
+        "tags": [ "1min" ],
+        "setup": "v115@HhwwEeR4BexwCeR4i0wwDezhg0JeAglHhQpCeh0xhB?eRpR4g0xhilQpR4Aeg0T4glJeAgHHhBthlzhRpAeBtilBeR?pAexhhlOeAgH",
+        "solves": "v115@9gBthlzhRpA8Btglh0B8RpB8R4g0F8R4glg0E8JeAg?l"
+    },
+    "LZ": {
+        "title": "LZ",
+        "tags": [ "1min" ],
+        "setup": "v115@KhwwCeg0DexwAeR4i0CewwR4zhJeAglKhQpjlBeBtR?pglxhilAeBtQpxhT4JeAgHHhh0R4zhRpg0R4Aei0AeRpg0B?tQeAgH",
+        "solves": "v115@9gh0R4zhRpg0R4A8ilA8RpBtB8glE8g0BtG8JeAgl"
+    },
+    "IJL": {
+        "title": "IJL",
+        "tags": [ "1min" ],
+        "setup": "v115@9gwhHewwwhGexwwhi0CeR4wwwhBeg0BeR4LeAgl9gQ?4g0DeglBeQpQ4i0zhRpQ4llxhQpQ4BeglBexhLeAgHShglR?4Rpg0BtBeR4AeRpBeBtJeAgH",
+        "solves": "v115@9gA8g0R4RpglBtB8i0zhF8ilD8R4A8RpB8BtJeAgl"
+    },
+    "JZ": {
+        "title": "JZ",
+        "tags": [ "normal" ],
+        "setup": "v115@9gwhIewhwwHewhxwDei0whwwGeg0JeAgl",
+        "solves": "v115@9gA8zhR4i0B8RpT4glg0C8BtR4E8RpBtilA8JeAgl+?gxhxwBegWxSBeQaQpBexSwhwSCeglQpAewSEeQaAtQpwSSa?KeAgl"
+    },
+    "S,Z": {
+        "title": "S,Z",
+        "tags": [ "normal" ],
+        "setup": "v115@GhwhIewhBeR4Bei0whAeR4Eeg0whJeAgl",
+        "solves": "v115@9gBtzhglRpA8wwBti0glRpA8xwB8R4D8wwB8R4g0hl?B8JeAgl9gwSwhRpxhAtRpAeAPxhhWAPwhAeQpAeAPIeAPDe?APxhLeAgl9gQpQaxSRaDeAtTawwAtQaBeAtIeAtBeBPAeRa?LeAgl"
+    },
+    "Z,S": {
+        "title": "Z,S",
+        "tags": [ "normal" ],
+        "setup": "v115@KhwwBeR4DexwAeR4i0CewwEeg0JeAgl",
+        "solves": "v115@9gh0R4whilRpg0R4A8whglB8RpBtB8whE8g0BtA80h?A8JeAgl"
+    },
+    "Z,S 2": {
+        "title": "Z,S",
+        "tags": [ "normal" ],
+        "setup": "v115@Ohg0GeR4i0DeR4zhJeAgl",
+        "solves": "v115@9ghlzhR4Rpwwglh0AtR4A8Rpxwg0BtE8wwglg0AtF8?JeAgl9gBtAeyhDewhQpQLAPHeQLGewhQpQLQeAgl/gg0wwR?ahHCeglg0QpgWRLCeRaAtwhgWFeQaQpwhPeAgl"
+    },
+    "L,S": {
+        "title": "L,S",
+        "tags": [ "normal" ],
+        "setup": "v115@KhQ4EewwCeR4CexwzhQ4DewwJeAgl",
+        "solves": "v115@9gBti0Q4zhg0BtA8g0R4RpA8i0B8ilG8glQ4RpA8Je?Agl9ggWQpSLgHhlxwAPRpAegWwSAPAeQpAeBPwhBeCtGegl?wSRpKeAgl9gglwSzwRpxhAeRLAeglQaAeAtwhBeglwSBexS?HexSRLKeAgl"
+    },
+    "OIL": {
+        "title": "OIL",
+        "tags": [ "normal" ],
+        "setup": "v115@9gwhIewhHewwwhg0Fexwwhi0EewwJeAgl",
+        "solves": "v115@9gA8RpQ4Bthlh0A8RpR4Btglg0C8zhR4F8S4glg0A8?JeAgl+gAtgWgHxSBtxhAeBtRLgWglwwwhCeg0whhlxSFeBP?QaglgWKeAglEhgWIeRaQegWRpKeAgl"
+    },
+    "S,L": {
+        "title": "S,L (88% T)",
+        "tags": [ "normal" ],
+        "setup": "v115@GhwhIewhBeR4Bei0whAeR4Eeg0whJeAgl",
+        "solves": "v115@9gh0BtwwwhRpglA8g0R4xwwhilA8R4B8wwwhD8g0B8?BtwhRpB8JeAgl9ghWxSAPAeRpAtAeQaxShWg0wwAeAtAehW?Beglg0DeQaBeRawhRaLeAglDhAPxSDeRpQaQLwhwSNeCtNe?Agl9gxhAtywEewhAegWwhRexSwhNeAgl"
+    },
+    "TLO": {
+        "title": "TOL (92% T)",
+        "tags": [ "normal" ],
+        "setup": "v115@QhwwAeR4EexwR4zhCewwJeAgl",
+        "solves": "v115@9gzhRph0R4ilg0Rpg0R4A8glB8i0BtH8g0BtA8JeAg?lEhgWIeRaQegWRpKeAgl9gxwh0hWQLwSRaAtxwwSAewhgWA?PBeAtBexSAPhWIewSQaKeAglBhRpxhQeSpHewhgWLeAgl"
+    },
+    "TIJ": {
+        "title": "TIJ (92% T)",
+        "tags": [ "normal" ],
+        "setup": "v115@HhwwIexwEei0wwDezhg0JeAgl",
+        "solves": "v115@9gBtR4zhRpA8R4ilR4RpB8i0R4D8Btglg0E8JeAgl9?ghWgHQawwh0QpCeQLgHAtxwxSDeQLAewhAewSDegWwSwwwh?OeAgl9ghlg0whQLhHwSCeglQpAPRLRpDewwAeQaAeQpDeww?g0QLQaOeAgl/gRLJeBtFexhZeAgl/gRpAtCegWQaCeQpBeQ?aQLRaDewhAeQaFewwwhOeAgl"
+    },
+    "TIO": {
+        "title": "TIO (92% T)",
+        "tags": [ "normal" ],
+        "setup": "v115@9gwhIewhHewwwhg0Fexwwhi0EewwJeAgl",
+        "solves": "v115@9gA8ilzhR4A8glRpg0T4C8RpR4BtF8i0BtA8JeAgl+?gxhwwRpxhRaAewhAeAtwhxSQLQaCehWhHRpFeyhgWglKeAg?lAhgHxSQaAeBPFeglAtDeh0RpHewSOeAgl+gAtQpxwxhAex?wAeBtBPAegWxhDeAPQagWxSFeglhHQaQLKeAgl+gAPwSBPB?tglCeBPBtxShHDeAtQaAtHeAPwwQph0KeAglAhAtAeBPFeQ?aHeRawwwhIewhNeAgl+gAtQpAeAtBegWCeBtwSAPwhQph0C?ewhwSAPwSAewhFeAtwSwhhWKeAgl+gQaBeAPBeQpCexSQpA?exhhWCewSwhAeQaQpglFeAPQpilKeAgl"
+    },
+    "TIL": {
+        "title": "TIL (71% T)",
+        "tags": [ "normal" ],
+        "setup": "v115@QhwwBei0Cexwzhg0DewwJeAgl",
+        "solves": "v115@9gRpgli0BtR4ilzhR4A8RpC8g0R4G8R4BtA8JeAglD?hRpRexSVeAgl9gRaAexSQLRaCexwhlAewwCeBtCeQLIegHQ?aMeAglAhRpwwhHxDCehWAeQLxDFeAtxhGewwQaBPKeAgl"
+    },
+    "TJL": {
+        "title": "TJL (71% T)",
+        "tags": [ "normal" ],
+        "setup": "v115@KhQ4EewwCeR4CexwzhQ4DewwJeAgl",
+        "solves": "v115@9gBti0Q4zhg0BtA8g0R4RpA8i0B8ilG8glQ4RpA8Je?Agl9gRaSLgHwwQph0AehlAeAPQLQaRpAexSDehlHewSBtKe?Agl9gxhEeglCehWDexhAeRpDeglwhHewhhWKeAgl9ghlywA?tRaCeRaAeAtAeQaDexSCegWQaHewSRaKeAgl"
+    }
+}

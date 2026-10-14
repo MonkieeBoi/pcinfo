@@ -19,10 +19,18 @@ layout: base.njk
     </table>
 </div>
 <br>
+
+{% set matches = [] %}
 {% for e in entries | withTag("normal") %}
     {% if e.section == sub.section and e.subsection == sub.slug %}
-        <hr>
-        <h2><a href="{{ e.url }}">{% label e.title %}</a></h2>
+        {% set _ = matches.push(e) %}
+    {% endif %}
+{% endfor %}
+
+{% for title, items in matches | groupby("title") %}
+    <hr>
+    <h2><a href="{{ items[0].url }}">{% label title %}</a></h2>
+    {% for e in items %}
         {% if e.setup %}
           <div>{% fumen e.setup %}</div>
         {% endif %}
@@ -34,7 +42,8 @@ layout: base.njk
             {% endfor %}
           </details>
         {% endif %}
-    {% endif %}
+        <br>
+    {% endfor %}
 {% endfor %}
 
 {% for e in entries | withTag("oqb") %}
