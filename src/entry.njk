@@ -1,0 +1,9 @@
+---
+pagination:
+  data: entries
+  size: 1
+  alias: entry
+permalink: "/{{ entry.section }}/{{ entry.subsection }}/{{ entry.slug }}/"
+eleventyComputed:
+  title: "{{ entry.title }}"
+---

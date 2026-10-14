@@ -1,0 +1,24 @@
+---
+layout: base.njk
+title: PC Setups
+---
+
+<style>
+li {
+    font-size: 1.2em;
+}
+</style>
+
+<h1>{{ title }}</h1>
+
+{% for s in sections %}
+  <h2><a href="/{{ s.slug }}/">{{ s.title }}</a></h2>
+
+  {% if not s.hideSubsections %}
+    <ul>
+    {% for sub in s.subsections %}
+      <li><a href="/{{ s.slug }}/{{ sub.slug }}/">{% label sub.title %}</a></li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endfor %}

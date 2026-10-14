@@ -1,0 +1,50 @@
+---
+layout: base.njk
+---
+<h1>{% label sub.title %} 2nd</h1>
+<div class="scroll-x">
+    <table>
+        {% for e in entries | withTag("1min") %}
+            {% if e.section == sub.section and e.subsection == sub.slug %}
+                <tr>
+                    <th><h3><a href="{{ e.url }}">{% label e.title %}</a></h3></th>
+                    {% if e.setup %}
+                        <th>{% fumen e.setup, {page: 1} %}</th>
+                        <th>{% fumen e.setup, {page: 2} %}</th>
+                        <th>{% fumen e.setup, {page: 3} %}</th>
+                    {% endif %}
+                </tr>
+            {% endif %}
+        {% endfor %}
+    </table>
+</div>
+<br>
+{% for e in entries | withTag("normal") %}
+    {% if e.section == sub.section and e.subsection == sub.slug %}
+        <hr>
+        <h2><a href="{{ e.url }}">{% label e.title %}</a></h2>
+        {% if e.setup %}
+          <div>{% fumen e.setup %}</div>
+        {% endif %}
+        {% if e.solves %}
+          <details>
+              <summary>Solves ({{ e.solves | fumenPages | length }})</summary>
+            {% for p in e.solves | fumenPages %}
+              {% fumen e.solves, {page: p} %}
+            {% endfor %}
+          </details>
+        {% endif %}
+    {% endif %}
+{% endfor %}
+
+{% for e in entries | withTag("oqb") %}
+    {% if e.section == sub.section and e.subsection == sub.slug %}
+        <hr>
+        <h2><a href="{{ e.url }}">{% label e.title %}</a></h2>
+        {% for t in e.trees %}
+            <div class="scroll-x">
+                {% tree t %}
+            </div>
+        {% endfor %}
+    {% endif %}
+{% endfor %}

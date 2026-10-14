@@ -1,0 +1,8 @@
+---
+layout: base.njk
+---
+<h1>{{ section.title }}</h1>
+
+{% for sub in section.subsections %}
+  <h2><a href="/{{ section.slug }}/{{ sub.slug }}/">{% label sub.title %}</a></h2>
+{% endfor %}

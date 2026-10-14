@@ -1,0 +1,14 @@
+---
+layout: base.njk
+---
+<h1><a href="/{{ entry.section }}/{{ entry.subsection }}/">{% label entry.subsection %}</a> - {% label entry.title %}</h1>
+{% if entry.setup %}
+    {% fumen entry.setup, {page: 1} %}
+{% endif %}
+<br>
+<br>
+{% if entry.solves %}
+    {% for p in entry.solves | fumenPages %}
+        {% fumen entry.solves, {page: p} %}
+    {% endfor %}
+{% endif %}
