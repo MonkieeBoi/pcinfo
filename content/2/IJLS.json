@@ -1,0 +1,96 @@
+{
+    "SZ": {
+        "title": "SZ",
+        "tags": [ "1min" ],
+        "setup": "v115@/gQ4IeR4Eeg0ilQ4Eeg0glzhCeh0JeAgl/gwhIexhQ?4CeAtgli0whR4AeBtglg0U4AeAthlJeAgl9gRpAei0whilR?pBewhg0whglAtEeyhBtFexhAtLeAgl",
+        "solves": "v115@/gQ4IeR4Eeg0ilQ4Eeg0glzhCeh0JeAgl"
+    },
+    "Z": {
+        "title": "Z",
+        "tags": [ "1min" ],
+        "setup": "v115@HhglIeglCeR4Aei0hlAeR4zhg0JeAglEhAtBeg0EeB?tBeg0CexhAtilh0AexhT4glJeAgl9ghlwhh0R4AtRpAeglw?hg0R4BtRpAeglwhg0BeAtEewhQeAgl",
+        "solves": "v115@9ghlwhh0R4AtRpA8glwhg0R4BtRpA8glwhg0B8AtE8?whG8JeAgl"
+    },
+    "IO": {
+        "title": "IO",
+        "tags": [ "1min" ],
+        "setup": "v115@Hhh0DeR4Beg0DeR4Beglg0BezhilJeAglFhRphl1hR?pglDexhBeg0glBeT4i0JeAgHHhhlh0R4BtxwAeglg0R4BeB?tBeglg0QeAgH",
+        "solves": "v115@9ghlh0R4BtRpB8zhB8RpA8glg0R4B8BtB8glg0G8Je?Agl"
+    },
+    "IS": {
+        "title": "IS",
+        "tags": [ "1min" ],
+        "setup": "v115@Hhh0Heg0ilzhR4g0glEeR4KeAgHMhQ4DehlCeR4Ceg?lg0zhQ4xhKeAgHHhi0RpwhBthlBeg0RpxhBtglBeT4whBeg?lJeAgH",
+        "solves": "v115@9gi0RpQ4BthlB8g0RpR4BtglL8zhQ4B8glJeAgl"
+    },
+    "O": {
+        "title": "O",
+        "tags": [ "normal" ],
+        "setup": "v115@Mhg0GeR4g0FeR4h0zhJeAgl",
+        "solves": "v115@9gwhilR4h0hlwhglAtR4A8g0RpglwhBtC8g0Rpglwh?AtH8JeAgl+gSaBehWBexhQaDexhAewhRaDeRpAewhgWReAg?lDhgWglBtFeAPBeAtFeBPgWglTeAgl"
+    },
+    "LS-JS": {
+        "title": "LS/JS",
+        "tags": [ "normal" ],
+        "setup": "v115@LhR4Deg0BeR4glDei0ilzhJeAgl",
+        "solves": "v115@9gRpzhBthlRpR4B8g0BtglA8R4C8i0glJ8JeAglDhg?WglBtFeAPBeAtFeBPgWglTeAgl"
+    },
+    "JL": {
+        "title": "JL",
+        "tags": [ "normal" ],
+        "setup": "v115@HhglQ4HeglR4g0FehlQ4i0zhJeAgl",
+        "solves": "v115@9gzhDehlB8i0BeRpglD8g0BeRpglJ8JeAglFhxhGeR?aHeQaAewhTeAgl"
+    },
+    "IJ-IL": {
+        "title": "IJ/IL OQB",
+        "tags": [ "oqb" ],
+        "trees": [
+            {
+                "p": "J0Sv0I6",
+                "solves": "v115@9gA8Dei0RpB8Beilg0RpB8BehlzhC8ilD8JeAglChQ?LxSRaDeAtQawhwSRaDeAtQazhCeBtQaNeAgl+gBtRpAeRpx?wBeBtAPAeQpAtwwCehlAPAeAtFexSOeAglAhRawhHewhglF?eSaHeQaAeglNeAglAhCtxSRLDeBtwSAPQLGeAPFewwAtQpN?eAgl"
+            },
+            {
+                "label": "Acc I",
+                "p": "I3",
+                "c": [
+                    {
+                        "label": "S/Z",
+                        "p": "J0Sv0Ls4",
+                        "solves": "v115@9gA8DeRphlwhB8BeC8h0whB8BeA8Rpg0glwhG8g0gl?whJeAgH9gA8DeRph0whAeA8BeA8xwHeRLAeAPCeB8AexwMe?AgH"
+                    },
+                    {
+                        "label": "J/L",
+                        "p": "L0S0Jw7",
+                        "solves": "v115@9gilRpDewhglB8i0BeA8whC8Rpg0BeA8whI8whJeAg?lAhRpIexSGeQpAewSXeAgl"
+                    },
+                    {
+                        "label": "O",
+                        "p": "L7S5J3",
+                        "solves": "v115@9ghlwhA8R4BtRph0whE8Rpg0glwhR4B8BtA8g0glwh?G8JeAgH9gh0whA8R4BtRphlwhE8Rpg0glwhR4B8BtA8g0gl?whG8JeAgH"
+                    }
+                ]
+            },
+            {
+                "label": "Acc L",
+                "p": "Le0",
+                "c": [
+                    {
+                        "label": "Z",
+                        "p": "I5Js7S3",
+                        "solves": "v115@9ghlwhh0R4AtRpA8glwhg0R4BtRpA8glwhg0B8AtE8?whG8JeAgl"
+                    },
+                    {
+                        "label": "J/L",
+                        "p": "Sv1J3I6",
+                        "solves": "v115@9gzhDehlB8i0BeRpglD8g0BeRpglJ8JeAglFhxhGeR?aHeQaAewhTeAgl"
+                    },
+                    {
+                        "label": "O",
+                        "p": "J1S7I4",
+                        "solves": "v115@9gi0RpQ4BthlB8g0RpR4BtglL8zhQ4B8glJeAgl"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -90,6 +90,7 @@ table {
 th,
 td {
     padding: 5px;
+    min-width: 50px;
 }
 
 .m {
@@ -144,7 +145,7 @@ html[data-mirror="on"] .m {
 }
 
 :root {
-    --line-color: #fff;
+    --line-color: var(--nord03);
     --line-width: 0.1em;
     --spacing: 0.5em;
 }
@@ -160,7 +161,7 @@ html[data-mirror="on"] .m {
 }
 
 .node {
-    background-color: var(--nord02);
+    background-color: var(--nord01);
     border: solid var(--line-width) var(--line-color);
     position: relative;
     padding: 5px;
@@ -168,6 +169,7 @@ html[data-mirror="on"] .m {
 
 .node img.fumen {
     display: block;
+    border: none;
 }
 
 .node:focus-visible {

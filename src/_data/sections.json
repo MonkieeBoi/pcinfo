@@ -3,6 +3,8 @@
     "slug": "2",
     "title": "2nd",
     "subsections": [
+      { "slug": "IJLS", "title": "IJLS" },
+      { "slug": "JLOS", "title": "JLOS" },
       { "slug": "TIJL", "title": "TIJL" },
       { "slug": "TIJS", "title": "TIJS" }
     ]
