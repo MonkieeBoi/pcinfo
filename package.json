@@ -12,6 +12,8 @@
   "type": "module",
   "dependencies": {
     "@11ty/eleventy": "^3.1.6",
+    "eleventy-plugin-rangefind": "^0.3.1",
+    "rangefind": "^0.5.0",
     "tetris-fumen": "^1.1.3"
   }
 }

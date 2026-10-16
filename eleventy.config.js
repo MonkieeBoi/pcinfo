@@ -1,4 +1,5 @@
 import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
+import rangefindPlugin from "eleventy-plugin-rangefind";
 import { fumenPageCount, fumenSvg } from "./fumen-svg.js";
 import { renderTree } from "./tree.js";
 
@@ -39,6 +40,11 @@ const colorize = (html) =>
 
 export default function(eleventyConfig) {
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
+    const PATH_PREFIX = process.env.PATH_PREFIX || "/";
+    eleventyConfig.addPlugin(rangefindPlugin, {
+        baseUrl: PATH_PREFIX,
+        src: `${PATH_PREFIX}rangefind/`
+    });
     eleventyConfig.addWatchTarget("content/");
     eleventyConfig.addPassthroughCopy("src/js");
     eleventyConfig.addPassthroughCopy("src/css");
@@ -59,8 +65,16 @@ export default function(eleventyConfig) {
         const ha = colorize(esc(a));
         return a === b
             ? ha
-            : `<span class="n">${ha}</span><span class="m">${colorize(esc(b))
-            }</span>`;
+            : `<span class="n">${ha}</span><span class="m">${colorize(esc(b))}</span>`;
+    });
+
+
+    eleventyConfig.addShortcode("normal_label", (text) => {
+        const a = esc(normalizeText(text));
+        const b = esc(mirrorText(text));
+        return a === b
+            ? a
+            : `${a}/${b}`;
     });
 
     eleventyConfig.addShortcode("tree", node =>
@@ -86,6 +100,6 @@ export default function(eleventyConfig) {
 
     return {
         dir: { input: "src", output: "_site" },
-        pathPrefix: process.env.PATH_PREFIX || "/",
+        pathPrefix: PATH_PREFIX,
     };
 }

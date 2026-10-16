@@ -1,7 +1,9 @@
 ---
 layout: base.njk
 ---
+<h1 class="hidden" data-rangefind-body data-rangefind-meta="title">{% normal_label sub.title %} 2nd</h1>
 <h1>{% label sub.title %} 2nd</h1>
+
 <div class="scroll-x">
     <table>
         {% for e in entries | withTag("1min") %}

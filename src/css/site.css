@@ -73,6 +73,26 @@ button {
     border: 1px solid var(--alt-bg);
 }
 
+#search-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+rangefind-search.rf-search {
+    --rf-accent: var(--nord09);
+    --rf-mark-bg: var(--nord07);
+    --rf-radius: 5px;
+    --rf-bg: var(--bg);
+    --rf-panel-bg: var(--bg);
+    --rf-option-hover: var(--nord03);
+}
+
+rangefind-search {
+    width: 70vw;
+}
+
 table .fumen {
     border: none;
 }
