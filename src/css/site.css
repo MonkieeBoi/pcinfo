@@ -295,6 +295,29 @@ html[data-mirror="on"] .m {
     }
 }
 
+.node {
+    transition: transform 0.15s, border-color 0.15s;
+    &:hover { border-color: var(--nord08); }
+    &:active { transform: scale(0.99); }
+}
+
+.tree ul {
+    --collapsed: translateY(-0.6em) scale(0.95);
+    transform-origin: top left;
+    transition: all 0.15s allow-discrete;
+
+    @starting-style {
+        opacity: 0;
+        transform: var(--collapsed);
+    }
+
+    &.hidden {
+        display: none;
+        opacity: 0;
+        transform: var(--collapsed);
+    }
+}
+
 details {
     interpolate-size: allow-keywords;
     margin-left: 5px;

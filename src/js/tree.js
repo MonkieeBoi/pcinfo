@@ -3,5 +3,9 @@ document.addEventListener("click", (e) => {
     if (!node) return;
 
     const sub = node.parentElement.querySelector(":scope > ul");
-    if (sub) sub.classList.toggle("hidden");
+    if (sub) {
+        sub.classList.toggle("hidden");
+    } else {
+        node.parentElement.querySelector(":scope > details").toggleAttribute("open");
+    }
 });
