@@ -1,26 +1,26 @@
 {
     "SZ": {
         "title": "SZ",
-        "tags": [ "1min" ],
-        "setup": "v115@/gQ4IeR4Eeg0ilQ4Eeg0glzhCeh0JeAgl/gwhIexhQ?4CeAtgli0whR4AeBtglg0U4AeAthlJeAgl9gRpAei0whilR?pBewhg0whglAtEeyhBtFexhAtLeAgl",
-        "solves": "v115@/gQ4IeR4Eeg0ilQ4Eeg0glzhCeh0JeAgl"
+        "tags": [ "normal" ],
+        "setup": "v115@/gQ4IeR4Eeg0ilQ4Eeg0glzhCeh0JeAgl",
+        "solves": "v115@9gRpA8i0whilRpB8Q4g0whglAtE8R4whBtF8Q4whAt?B8JeAgH"
     },
     "Z": {
         "title": "Z",
-        "tags": [ "1min" ],
-        "setup": "v115@HhglIeglCeR4Aei0hlAeR4zhg0JeAglEhAtBeg0EeB?tBeg0CexhAtilh0AexhT4glJeAgl9ghlwhh0R4AtRpAeglw?hg0R4BtRpAeglwhg0BeAtEewhQeAgl",
+        "tags": [ "normal" ],
+        "setup": "v115@HhglIeglCeR4Aei0hlAeR4zhg0JeAgl",
         "solves": "v115@9ghlwhh0R4AtRpA8glwhg0R4BtRpA8glwhg0B8AtE8?whG8JeAgl"
     },
     "IO": {
         "title": "IO",
-        "tags": [ "1min" ],
-        "setup": "v115@Hhh0DeR4Beg0DeR4Beglg0BezhilJeAglFhRphl1hR?pglDexhBeg0glBeT4i0JeAgHHhhlh0R4BtxwAeglg0R4BeB?tBeglg0QeAgH",
+        "tags": [ "normal" ],
+        "setup": "v115@Hhh0DeR4Beg0DeR4Beglg0BezhilJeAgl",
         "solves": "v115@9ghlh0R4BtRpB8zhB8RpA8glg0R4B8BtB8glg0G8Je?Agl"
     },
     "IS": {
         "title": "IS",
-        "tags": [ "1min" ],
-        "setup": "v115@Hhh0Heg0ilzhR4g0glEeR4KeAgHMhQ4DehlCeR4Ceg?lg0zhQ4xhKeAgHHhi0RpwhBthlBeg0RpxhBtglBeT4whBeg?lJeAgH",
+        "tags": [ "normal" ],
+        "setup": "v115@Hhh0Heg0ilzhR4g0glEeR4KeAgH",
         "solves": "v115@9gi0RpQ4BthlB8g0RpR4BtglL8zhQ4B8glJeAgl"
     },
     "O": {

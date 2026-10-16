@@ -27,7 +27,7 @@ export function renderTree(root, { img, label }) {
     const btn = `<button class="node">${head}${pic}</button>`;
 
     const kids = (node.c ?? []).map(k => build(k, board)).join("");
-    const ul = kids ? `<ul class="hidden">${kids}</ul>` : "";
+    const ul = kids ? `<ul>${kids}</ul>` : "";
     return `<li>${btn}${solves}${ul}</li>`;
   };
 

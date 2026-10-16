@@ -1,26 +1,26 @@
 {
     "OZ": {
         "title": "OZ",
-        "tags": [ "1min" ],
-        "setup": "v115@Hhh0Heg0RpCeR4Aeglg0RpBeR4ilJeAglGhAthlFeB?tglxwRpAexhAtg0glxwRpxhi0JeAgHHhzhglh0R4AtBeilg?0R4BtCexwg0BeAtKeAgH",
+        "tags": [ "normal" ],
+        "setup": "v115@Hhh0Heg0RpCeR4Aeglg0RpBeR4ilJeAgl",
         "solves": "v115@9gzhglh0R4AtB8ilg0R4BtC8Rpg0B8AtD8RpE8JeAg?l"
     },
     "Z": {
         "title": "Z",
-        "tags": [ "1min" ],
-        "setup": "v115@Lhg0GeR4g0RpBeglAeR4h0RpilJeAglLhglAeBtDex?hglxwBtg0Aexhhlxwi0JeAgl9gwhh0R4ilRpwhg0R4AeglB?tRpwhg0EeBtAewhSeAgl",
+        "tags": [ "normal" ],
+        "setup": "v115@Lhg0GeR4g0RpBeglAeR4h0RpilJeAgl",
         "solves": "v115@9gwhh0R4ilRpwhg0R4A8glBtRpwhg0E8BtA8whI8Je?Agl"
     },
     "IS": {
         "title": "IS",
-        "tags": [ "1min" ],
-        "setup": "v115@HhQ4Fei0R4RpBeilg0AeQ4RpBeglMeAglHh0hR4ilx?hxwR4i0glAewhxwBeg0MeAgHRhilBti0RpglCeBtAeg0RpJ?eAgH",
+        "tags": [ "normal" ],
+        "setup": "v115@HhQ4Fei0R4RpBeilg0AeQ4RpBeglMeAgl",
         "solves": "v115@9gilBti0RpA8zhR4G8R4D8glC8BtA8g0RpJeAgl"
     },
     "JS": {
         "title": "JS",
-        "tags": [ "1min" ],
-        "setup": "v115@RhilR4i0RpglAeR4Ceg0RpJeAgHHhQ4IeR4Beg0Eeg?0Q4xhi0glxwJeAgHRhwhBtzhglRpxhBtjlRpJeAgH",
+        "tags": [ "normal" ],
+        "setup": "v115@RhilR4i0RpglAeR4Ceg0RpJeAgH",
         "solves": "v115@9gQ4BtzhglRpR4Btg0ilRpK8Q4B8i0C8JeAgl"
     },
     "LJ": {

@@ -27,24 +27,27 @@ layout: base.njk
     {% endif %}
 {% endfor %}
 
+
+<div class="entry-grid">
 {% for title, items in matches | groupby("title") %}
-    <hr>
-    <h2>{% label title %}</h2>
-    {% for e in items %}
-        {% if e.setup %}
-          <div>{% fumen e.setup %}</div>
-        {% endif %}
-        {% if e.solves %}
-          <details>
-              <summary>Solves ({{ e.solves | fumenPages | length }})</summary>
-            {% for p in e.solves | fumenPages %}
-              {% fumen e.solves, {page: p} %}
-            {% endfor %}
-          </details>
-        {% endif %}
-        <br>
-    {% endfor %}
+    <section class="entry-card">
+        <h2>{% label title %}</h2>
+        {% for e in items %}
+            {% if e.setup %}
+            <div>{% fumen e.setup %}</div>
+            {% endif %}
+            {% if e.solves %}
+              <details>
+                  <summary>Solves ({{ e.solves | fumenPages | length }})</summary>
+                {% for p in e.solves | fumenPages %}
+                  {% fumen e.solves, {page: p} %}
+                {% endfor %}
+              </details>
+            {% endif %}
+        {% endfor %}
+    </section>
 {% endfor %}
+</div>
 
 {% for e in entries | withTag("oqb") %}
     {% if e.section == sub.section and e.subsection == sub.slug %}

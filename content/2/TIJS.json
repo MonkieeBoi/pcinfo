@@ -1,50 +1,50 @@
 {
     "JO": {
         "title": "JO",
-        "tags": [ "1min" ],
-        "setup": "v115@HhwwHeg0xwR4Eeg0wwR4Aezhh0JeAgHHhQpCeRpg0B?eglRpxhRpi0glQpxhAeT4hlJeAgHHhBthlzhR4AeBtglxwg?lR4DeglPeAgH",
+        "tags": [ "normal" ],
+        "setup": "v115@HhwwHeg0xwR4Eeg0wwR4Aezhh0JeAgH",
         "solves": "v115@9gBthlzhR4A8BtglRpg0R4E8Rpi0D8glF8JeAgH"
     },
     "OZ": {
         "title": "OZ",
-        "tags": [ "1min" ],
-        "setup": "v115@9gwhIewhwwGeg0whxwDeR4g0whwwDeR4h0JeAgH9gQ?4IeQ4QpDeAtBeglQ4TpBtxhglQ4QpAeRpAtxhhlJeAgHIhh?lg0zhR4Begli0AtR4CeglxwAtNeAgH",
+        "tags": [ "normal" ],
+        "setup": "v115@9gwhIewhwwGeg0whxwDeR4g0whwwDeR4h0JeAgH",
         "solves": "v115@9gA8hlg0zhR4B8gli0AtR4D8RpBtE8glRpAtD8JeAg?H"
     },
     "OS": {
         "title": "OS",
-        "tags": [ "1min" ],
-        "setup": "v115@Ghg0wwHeg0xwR4Deh0wwR4CezhJeAgHGhglQpFeR4g?lRpxhRpR4hlQpxhAeRpT4JeAgHHhBthlg0zhBeBtgli0xhD?eglxwNeAgH",
+        "tags": [ "normal" ],
+        "setup": "v115@Ghg0wwHeg0xwR4Deh0wwR4CezhJeAgH",
         "solves": "v115@9gBthlg0zhB8Btgli0R4E8RpR4E8glRpD8JeAgH"
-    },
-    "IZ": {
-        "title": "IZ",
-        "tags": [ "1min" ],
-        "setup": "v115@IhR4FewwR4i0Cexwzhg0DewwJeAglChwhEexhBewhC?eQpxhilwhBtRpT4glwhAeBtQpJeAgHHhilRpQ4h0R4glBeR?pQ4g0R4FeQ4g0BtKeAgH",
-        "solves": "v115@9gilRpwhh0R4glB8Rpwhg0R4F8whBtG8whg0BtA8Je?Agl"
     },
     "IS": {
         "title": "IS",
-        "tags": [ "1min" ],
-        "setup": "v115@9gwwIexwCeh0CewwR4Beg0DeR4Ceg0zhJeAgl9gQpI?eRpCehlCeQpxhR4gl1hR4AeglT4JeAgHIhBthli0RpBeBtg?lBeg0RpBexhglOeAgH",
+        "tags": [ "normal" ],
+        "setup": "v115@9gwwIexwCeh0CewwR4Beg0DeR4Ceg0zhJeAgl",
         "solves": "v115@9gA8Bthli0RpB8BtglB8g0RpC8R4A8zhB8R4glE8Je?Agl"
+    },
+    "IZ": {
+        "title": "IZ",
+        "tags": [ "normal" ],
+        "setup": "v115@IhR4FewwR4i0Cexwzhg0DewwJeAgl",
+        "solves": "v115@9gilRpwhh0R4glB8Rpwhg0R4F8whBtG8whg0BtA8Je?Agl"
     },
     "JS": {
         "title": "JS",
-        "tags": [ "1min" ],
-        "setup": "v115@HhwwEeR4BexwCeR4i0wwDezhg0JeAglHhQpCeh0xhB?eRpR4g0xhilQpR4Aeg0T4glJeAgHHhBthlzhRpAeBtilBeR?pAexhhlOeAgH",
+        "tags": [ "normal" ],
+        "setup": "v115@HhwwEeR4BexwCeR4i0wwDezhg0JeAgl",
         "solves": "v115@9gBthlzhRpA8Btglh0B8RpB8R4g0F8R4glg0E8JeAg?l"
     },
     "LZ": {
         "title": "LZ",
-        "tags": [ "1min" ],
-        "setup": "v115@KhwwCeg0DexwAeR4i0CewwR4zhJeAglKhQpjlBeBtR?pglxhilAeBtQpxhT4JeAgHHhh0R4zhRpg0R4Aei0AeRpg0B?tQeAgH",
+        "tags": [ "normal" ],
+        "setup": "v115@KhwwCeg0DexwAeR4i0CewwR4zhJeAgl",
         "solves": "v115@9gh0R4zhRpg0R4A8ilA8RpBtB8glE8g0BtG8JeAgl"
     },
     "IJL": {
         "title": "IJL",
-        "tags": [ "1min" ],
-        "setup": "v115@9gwhHewwwhGexwwhi0CeR4wwwhBeg0BeR4LeAgl9gQ?4g0DeglBeQpQ4i0zhRpQ4llxhQpQ4BeglBexhLeAgHShglR?4Rpg0BtBeR4AeRpBeBtJeAgH",
+        "tags": [ "normal" ],
+        "setup": "v115@9gwhHewwwhGexwwhi0CeR4wwwhBeg0BeR4LeAgl",
         "solves": "v115@9gA8g0R4RpglBtB8i0zhF8ilD8R4A8RpB8BtJeAgl"
     },
     "JZ": {
