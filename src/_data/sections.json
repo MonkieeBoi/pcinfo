@@ -3,12 +3,14 @@
     "slug": "2",
     "title": "2nd",
     "subsections": [
+      { "slug": "IJLO", "title": "IJLO" },
       { "slug": "IJLS", "title": "IJLS" },
       { "slug": "JLSZ", "title": "JLSZ" },
       { "slug": "JLOS", "title": "JLOS" },
       { "slug": "TIJL", "title": "TIJL" },
       { "slug": "TJLO", "title": "TJLO" },
-      { "slug": "TIJS", "title": "TIJS" }
+      { "slug": "TIJS", "title": "TIJS" },
+      { "slug": "TJSZ", "title": "TJSZ" }
     ]
   }
 ]
