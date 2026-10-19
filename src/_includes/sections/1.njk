@@ -1,0 +1,48 @@
+---
+layout: base.njk
+---
+<h1 data-rangefind-body data-rangefind-meta="title">{{ section.title }}</h1>
+
+{% set pieces = ["T", "I", "J", "L", "O", "S", "Z"] %}
+<table style="font-size: 1.5em;">
+  <thead>
+    <tr>
+      <th></th>
+      {% for c in pieces %}<th>{% rawLabel c %}</th>{% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% for r in pieces %}
+      <tr>
+        <th>{% rawLabel r %}</th>
+        {% for c in pieces %}
+          <td>
+            {% for sub in section.subsections %}
+              {% if sub.slug == c + r %}
+                <a href="#{{ sub.slug }}">{% rawLabel sub.title %}</a>
+              {% endif %}
+            {% endfor %}
+          </td>
+        {% endfor %}
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+<br>
+
+
+{% for sub in section.subsections %}
+    <hr>
+    <h2 id="{{ sub.slug }}" style="scroll-margin-top: 4rem;"><a href="/{{ section.slug }}/{{ sub.slug }}/">{% rawLabel sub.title %}</a> Last ({{ sub.per | round(3) }}%)</h2>
+    <div class="entry-grid">
+        {% for e in entries %}
+            {% if e.section == section.slug and e.subsection == sub.slug %}
+                <section>
+                    <h3>{{ e.per | round(2) }}%</h3>
+                    {% rawFumen e.fumen %}
+                </section>
+            {% endif %}
+        {% endfor %}
+    </div>
+    <br>
+{% endfor %}

@@ -1,0 +1,17 @@
+---
+layout: base.njk
+noSearch: true
+---
+<h1>1st - {% rawLabel sub.title %} Last ({{ sub.per | round(3) }}%)</h1>
+
+
+<div class="entry-grid">
+    {% for e in entries %}
+        {% if e.section == sub.section and e.subsection == sub.slug %}
+            <section>
+                <h2>{{ e.per | round(2) }}%</h2>
+                {% rawFumen e.fumen %}
+            </section>
+        {% endif %}
+    {% endfor %}
+</div>

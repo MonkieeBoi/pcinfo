@@ -60,6 +60,15 @@ export default function(eleventyConfig) {
         );
     });
 
+
+    eleventyConfig.addShortcode("rawFumen", (code, opts = {}) => {
+        const { rows = 4, lock = true, page = null } = opts;
+        return (
+            img(fumenSvg(code, { rows, lock, page, mirror: false }))
+        );
+    });
+
+
     eleventyConfig.addShortcode("label", (text) => {
         const a = normalizeText(text), b = mirrorText(text);
         const ha = colorize(esc(a));
@@ -68,6 +77,10 @@ export default function(eleventyConfig) {
             : `<span class="n">${ha}</span><span class="m">${colorize(esc(b))}</span>`;
     });
 
+
+    eleventyConfig.addShortcode("rawLabel", (text) => {
+        return colorize(esc(text));
+    });
 
     eleventyConfig.addShortcode("normal_label", (text) => {
         const a = esc(normalizeText(text));

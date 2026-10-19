@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="/css/site.css">
 </head>
 
-<body {% if noSearch %}data-rangefind-ignore{% endif %}>
+<body {% if noSearch or sub.section == '1' %}data-rangefind-ignore{% endif %}>
     <header>
         <a href="/">
             <img id="logo" src="/assets/favicon.ico">
