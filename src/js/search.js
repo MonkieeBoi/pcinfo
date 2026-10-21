@@ -51,6 +51,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (rawQuery == "mookmouth") {
             setTransitionStyle("mirror");
             closeSearch();
+        } else if (rawQuery == "yee_mot") {
+            setTransitionStyle("spin");
+            closeSearch();
         } else if (rawQuery == "reset") {
             setTransitionStyle();
             closeSearch();

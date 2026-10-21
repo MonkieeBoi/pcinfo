@@ -6,6 +6,14 @@ function apply() {
     if (on) root.dataset.mirror = "on";
     else delete root.dataset.mirror;
     try { localStorage.setItem("mirror", on ? "on" : "off"); } catch (e) { }
+
+    if (document.documentElement.dataset.vt == "mirror") {
+        var audio = new Audio('/assets/audio/woop.mp3');
+        audio.play();
+    } else if (document.documentElement.dataset.vt == "spin") {
+        var audio = new Audio('/assets/audio/whoosh.mp3');
+        audio.play();
+    }
 }
 
 if (btn) {
@@ -29,16 +37,17 @@ document.addEventListener("keydown", e => {
 
 const STORAGE_KEY = "mirror-style";
 
-if (localStorage.getItem(STORAGE_KEY) === "mirror") {
-    document.documentElement.dataset.vt = "mirror";
+const loaded_style = localStorage.getItem(STORAGE_KEY);
+if (loaded_style) {
+    document.documentElement.dataset.vt = loaded_style;
 }
 
 function setTransitionStyle(style) {
-  if (style === "mirror") {
-    document.documentElement.dataset.vt = "mirror";
-    localStorage.setItem(STORAGE_KEY, "mirror");
-  } else {
-    delete document.documentElement.dataset.vt;
-    localStorage.removeItem(STORAGE_KEY);
-  }
+    if (style) {
+        document.documentElement.dataset.vt = style;
+        localStorage.setItem(STORAGE_KEY, style);
+    } else {
+        delete document.documentElement.dataset.vt;
+        localStorage.removeItem(STORAGE_KEY);
+    }
 }

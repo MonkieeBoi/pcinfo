@@ -1,0 +1,315 @@
+{
+    "OS": {
+        "title": "OS",
+        "tags": [ "normal" ],
+        "setup": "v115@9gwhIewhwwFeAtg0whxwDeBtg0whwwEeAth0JeAgl",
+        "solves": "v115@9gA8Bthlg0zhB8Btgli0E8R4RpE8R4glRpC8JeAgl"
+    },
+    "OZ": {
+        "title": "OZ",
+        "tags": [ "normal" ],
+        "setup": "v115@GhwhBtFewwwhg0BtDexwwhi0EewwwhJeAgl",
+        "solves": "v115@9gzhglh0R4C8ilg0R4E8RpBtF8Rpg0BtB8JeAgl"
+    },
+    "IZ": {
+        "title": "IZ",
+        "tags": [ "normal" ],
+        "setup": "v115@LhwwAeAtg0EexwBti0DewwAtzhJeAgl",
+        "solves": "v115@9gwhh0R4ilRpwhg0R4A8glB8RpwhBtG8whg0BtF8Je?Agl"
+    },
+    "JS": {
+        "title": "JS",
+        "tags": [ "normal" ],
+        "setup": "v115@HhwwEeAtg0BexwCeBti0wwDeAtzhJeAgl",
+        "solves": "v115@9gBthlzhRpA8Btglh0B8RpB8R4g0F8R4glg0E8JeAg?l"
+    },
+    "LZ": {
+        "title": "LZ",
+        "tags": [ "normal" ],
+        "setup": "v115@Khi0CewwCeBtg0BexwzhBtCewwJeAgl",
+        "solves": "v115@9gRpzhh0R4RpglC8g0R4A8ilC8BtH8g0BtA8JeAgl"
+    },
+    "SZ": {
+        "title": "SZ",
+        "tags": [ "normal" ],
+        "setup": "v115@IhAtGewwBtFexwAtzhDewwJeAgl",
+        "solves": "v115@9gilAtRpzhglA8BtRpg0R4C8Ati0R4G8j0A8JeAglA?hQaAegWxwh0BeglQaAegWFeglBeQLxSGeQLAehWKeAgl"
+    },
+    "IJO": {
+        "title": "IJO",
+        "tags": [ "normal" ],
+        "setup": "v115@9gBtGewhwwBtFewhxwi0DewhwwCeg0DewhJeAgl",
+        "solves": "v115@9gB8zhi0D8glDeg0F8BeRpB8ilA8BeRpA8JeAgl/gh?0RpxSQLEehlRpQLFeh0QpgWBexwBeBtQpgWKeAgl"
+    },
+    "L<J/IJL": {
+        "title": "L<J/IJL",
+        "tags": [ "normal" ],
+        "setup": "v115@Mhg0CewwCeBti0xwzhBtCewwJeAgl",
+        "solves": "v115@9gRpBtzhR4RpglBtA8g0R4A8ilM8i0A8JeAgl"
+    },
+    "O<L": {
+        "title": "O<L",
+        "tags": [ "normal" ],
+        "setup": "v115@Hhg0Hewwi0CeBtxwzhCeBtwwJeAgl",
+        "solves": "v115@9gBtzhh0R4A8Btilg0R4D8glRpH8Rpg0C8JeAgl"
+    },
+    "L<O": {
+        "title": "L<O",
+        "tags": [ "normal" ],
+        "setup": "v115@QhwwCeBtCexwzhBtCewwJeAgl",
+        "solves": "v115@9gRpBtzhR4RpglBth0R4A8ilB8i0H8i0A8JeAgl9gQ?aAtFeSaAtwwBexSRaCewwBexSWeAgl"
+    },
+    "T,J,L": {
+        "title": "T,J,L (92% T)",
+        "tags": [ "normal" ],
+        "setup": "v115@HhwwIexwBei0CewwzhAeg0MeAgl",
+        "solves": "v115@9gzhR4BtRpA8BtR4ilRpB8BtC8i0E8glA8Btg0JeAg?lEhgWGehlReglAehWKeAgl9gRpBehHAewhAeQaHeRaBeRpM?exhKeAgl9gxSBeh0whilEehWAehlBexSKegWAeglwhKeAgl"
+    },
+    "TIL": {
+        "title": "TIL (88% T)",
+        "tags": [ "normal" ],
+        "setup": "v115@QhwwCeBtCexwzhBtCewwJeAgl",
+        "solves": "v115@9gglQ4Btzhh0glR4Btg0Rpg0A8hlQ4B8i0H8Rpg0A8?JeAgl9gwhAPxSBexwyhAPQLhlAeQpAtwhCeQLCehWHeQpwh?gWKeAgl/gRpBeRLEehWKehlIehlKeAgl9gxhxSBexwBeRaA?ehlFehlDeQaHeSaKeAgl"
+    },
+    "TJO/TIO": {
+        "title": "TJO/TIO (88%% T)",
+        "tags": [ "normal" ],
+        "setup": "v115@HhwwIexwEei0wwDezhg0JeAgl",
+        "solves": "v115@BhAtzhglA8BeBtRpilB8i0RpD8BeAtg0E8JeAgl9gB?thlwSCeglwhAeBtgWglQpAtwwxhBehWAeBtDeBtgWPeAgl/?gBtwwyhCexSQaQLAPQeglgWOeAgl/ghWAPAtxwCeTpAtRaD?ehWAPFezSOeAgl/ghWAewhAewSEeglQpwhhWEeBtQawSWeA?glBhSaFeAPgHQaFewwwhQLFeh0whPeAgl/ghlwwRLwSgWQa?CeglQpwSQagWRaDewwwSQaFeAtwwOeAgl/gQpgWQLxwQpgl?whAeiWwSQpwhglxhDeQLQpwhDexSwhQLOeAgl/gQaAtwwxh?DehlAeg0whFehHAeQLEehWQLwwOeAgl/gxhSaglCeSpiWgl?DeRpxhgWDeilgWOeAglBhwSBPgWCexSyhglgWDexhQpAtgl?DeRpwhgWOeAgl9gxhgWQLAeBtDewhQpwhAPGeRawSHeQagl?OeAglAhhlBeglFeglhWglGeAPgWWeAgl"
+    },
+    "TJZ": {
+        "title": "TJZ (85% T)",
+        "tags": [ "normal" ],
+        "setup": "v115@Qhwwg0EeBtxwi0DeBtwwJeAgl",
+        "solves": "v115@9gRp3hRpR4Atg0ilB8R4Btg0G8Ath0glC8JeAgl/gw?wwhh0FeRaglQLSaBeRLgWAegWGeQpwhgWglMeAgl9gQpAew?SGeRpAexhFexhJeRLOeAgl9gwSAeQpQahHBeh0xSAegHQLx?hh0BeRpQaIeQaPeAgl9ghWQLAeyhAtjWQLBeglwwAegWDew?wIewwglRpMeAgl"
+    },
+    "TIJ": {
+        "title": "TIJ (74% T)",
+        "tags": [ "normal" ],
+        "setup": "v115@GhwhwwHewhxwDei0whwwGeg0whJeAgl",
+        "solves": "v115@BhAtwhRpglB8BeBtwhilC8i0whE8BeAtg0whRpB8Je?Agl9gBtR4BeQaAewhBeBtDexhLeR4CeRaLeAglBhgWwhGex?SAeQaEehWAPwwHegWwwBtLeAglAhQLBtglDehWwhwwRpEeR?pAtgWEexSQpwSSLLeAgl/gQLHehlReRpQLPeAgl/gxwgWQL?gWRaDeglgWwSwhhlCeRaAewSGeglwwAewhAtLeAgl/ggWQL?gWAeAtxwBeyhgWAeyhCehWAPFexSAegWAewwglLeAgl"
+    },
+    "T": {
+        "title": "T (Save I)",
+        "tags": [ "normal" ],
+        "setup": "v115@QhwwFeBtxwCezhBtwwJeAgl",
+        "solves": "v115@9gglRpBtywR4glRpg0BtwwR4A8l0D8hlg0G8JeAgl+?gRaRexSGeBtReAglAhRpRaAehWAeQpAtwhSawSgWBeRpAex?SXeAgl9gxhAtRaEewhwSBeQpQaEexhAPRaXeAgl"
+    },
+    "TLS": {
+        "title": "TLS OQB",
+        "tags": [ "oqb" ],
+        "trees": [
+            {
+                "p": "Jw8",
+                "c": [
+                    {
+                        "label": "I",
+                        "p": "I0Z3Te0",
+                        "solves": "v115@9gA8Rpi0BtR4B8zhglR4B8RpB8g0glBtG8hlB8JeAg?l"
+                    },
+                    {
+                        "label": "J",
+                        "p": "I5Te0Z1",
+                        "solves": "v115@9gBtzhRpR4C8g0ilR4E8glF8Bti0RpB8JeAgl"
+                    },
+                    {
+                        "label": "O",
+                        "p": "Tw0I2Z5",
+                        "solves": "v115@9gh0glQ4Btzhg0A8glR4BtRpC8hlQ4B8RpA8g0I8Je?Agl"
+                    },
+                    {
+                        "label": "Z",
+                        "p": "I6Te0Z0",
+                        "solves": "v115@9gB8zhG8Rpi0glC8R4BtilB8R4RpBtg0B8JeAgl"
+                    }
+                ]
+            },
+            {
+                "p": "Z7",
+                "c": [
+                    {
+                        "label": "I",
+                        "p": "Je0I40Tw8",
+                        "solves": "v115@9gBti0RpR4C8zhR4C8Btglg0RpD8ilF8JeAgl"
+                    },
+                    {
+                        "label": "J",
+                        "p": "J0Tw8I1",
+                        "solves": "v115@9gilBtzhA8gli0BtRpG8R4F8g0R4RpB8JeAgl9gxhg?lAegWEewhwSBPgWglBtOegWwSQaRpLeAgl"
+                    },
+                    {
+                        "label": "O",
+                        "p": "J0I3Tw8",
+                        "solves": "v115@9gQ4Btzhh0A8R4BtglRpg0C8Q4ilRpJ8g0B8JeAgl"
+                    },
+                    {
+                        "label": "Z",
+                        "p": "Tw8Js4",
+                        "solves": "v115@9gzhAtRph0A8ilBtRpg0B8glR4AtF8R4zhA8g0B8Je?AglBhwSEeQaAewwGeQaQLAeQpFegHQLwhg0RpNeAgl"
+                    }
+                ]
+            },
+            {
+                "label": "L<S",
+                "p": "Iv0",
+                "c": [
+                    {
+                        "label": "I",
+                        "p": "Te1Js3Zv8",
+                        "solves": "v115@9gA8zhBti0B8RpilR4G8R4D8RpglA8BtA8g0JeAgl"
+                    },
+                    {
+                        "label": "J",
+                        "p": "Js1Te4Z5",
+                        "solves": "v115@9gA8RpglBtzhA8ilC8i0H8R4A8RpB8BtR4g0JeAgl"
+                    },
+                    {
+                        "label": "O",
+                        "p": "Te1Js3Zv8",
+                        "solves": "v115@9gA8zhBti0B8RpilR4G8R4D8RpglA8BtA8g0JeAgl"
+                    },
+                    {
+                        "label": "Z",
+                        "p": "Tw1J3Zv6",
+                        "solves": "v115@9gA8h0RpzhAtA8g0A8RpR4A8BtD8R4B8AtglA8g0E8?ilJeAgl"
+                    }
+                ]
+            },
+            {
+                "label": "S<L",
+                "p": "I0",
+                "c": [
+                    {
+                        "label": "I",
+                        "p": "Z3Te0Jw8",
+                        "solves": "v115@9gA8Rpi0BtR4B8zhglR4B8RpB8g0glBtG8hlB8JeAg?l"
+                    },
+                    {
+                        "label": "not I",
+                        "p": "Z3J5Tw8",
+                        "solves": "v115@9gRpBtzhR4RpglBtA8g0R4A8ilM8i0A8JeAgl9gQaA?tFeSaAtwwCewSAPQaCewwMexSLeAgl"
+                    }
+                ]
+            }
+        ]
+    },
+    "TIS": {
+        "title": "TIS OQB",
+        "tags": [ "oqb" ],
+        "trees": [
+            {
+                "p": "Te0",
+                "c": [
+                    {
+                        "label": "J",
+                        "p": "I6Zv5Je4",
+                        "solves": "v115@9gBthlzhRpA8BtglC8g0RpB8R4C8i0A8R4glF8JeAg?l"
+                    },
+                    {
+                        "label": "L",
+                        "p": "Js2Zv7Iv9",
+                        "solves": "v115@9ghlRpBti0B8glzhR4G8R4D8glRpA8BtA8g0A8JeAg?l"
+                    },
+                    {
+                        "label": "O",
+                        "p": "I5Js7",
+                        "solves": "v115@9gBti0ilRpA8zhglR4RpB8Btg0R4D8DtE8JeAglChx?wglCeRpwhg0wwxSDexSQLgHwSDeiWglOeAgl/gBPQLRaGeg?HQaFeh0AewwEexwAeQLOeAgl"
+                    },
+                    {
+                        "label": "Z",
+                        "p": "Z0Iv9",
+                        "solves": "v115@9gB8hlh0AtRpD8glg0BtRpC8R4g0Ati0B8R4glzhg0?A8JeAglChgWQaAegWEegWAeQaAegWEegWglBeQLEezwQLKe?Agl/ghlAeQaAeQaEeglAegWRaFeglHeAtAexSMeAgl"
+                    }
+                ]
+            },
+            {
+                "p": "I0",
+                "c": [
+                    {
+                        "label": "J",
+                        "p": "Js2Zv1Te6",
+                        "solves": "v115@9gh0A8RpwhBthlg0B8RpwhA8Btglg0D8whB8R4E8wh?A8R4glJeAgl"
+                    },
+                    {
+                        "label": "L",
+                        "p": "Te0Z3Jw8",
+                        "solves": "v115@9gA8Rpi0BtR4B8zhglR4B8RpB8g0glBtG8hlB8JeAg?l"
+                    },
+                    {
+                        "label": "O",
+                        "p": "Z3Tw4J6",
+                        "solves": "v115@9gi0R4A8BthlRpR4B8zhRpg0D8BtglI8glJeAgl"
+                    },
+                    {
+                        "label": "Z",
+                        "p": "Z3Tw4J7",
+                        "solves": "v115@9gilR4A8h0RpBtR4B8zhglBtC8g0A8RpF8g0C8JeAg?l"
+                    }
+                ]
+            },
+            {
+                "label": "Acc J with T Last",
+                "p": "J0",
+                "c": [
+                    {
+                        "label": "J",
+                        "p": "I3Te3Z4",
+                        "solves": "v115@9gRpg0C8BthlRpg0D8BtglA8h0A8zhR4G8R4glJeAg?l"
+                    },
+                    {
+                        "label": "L",
+                        "p": "I2Te6Z7",
+                        "solves": "v115@9gQ4i0RpBthlR4zhC8glA8Q4K8g0RpA8BtglJeAgl"
+                    },
+                    {
+                        "label": "O",
+                        "p": "I4Z7Tw8",
+                        "solves": "v115@9gBthli0R4A8zhRpR4C8BtglRpg0F8glF8JeAgl"
+                    },
+                    {
+                        "label": "Z",
+                        "p": "Z7Tw8",
+                        "solves": "v115@9gg0RpwhilR4A8i0whBtR4C8RpwhglBtF80hB8JeAg?l9gzhBeSaAexhgWQpRagHQaCeAtgWAeQaxSFewhhlAewwLe?Agl+ghlAtAeQaAeRLCeRahWAeQLDehlwhRpFeAtRaQpgWLe?Agl+ghWwSwhwwyhCexhHehWQawSgWFewSwhAthlLeAgl"
+                    }
+                ]
+            },
+            {
+                "label": "Acc J,T",
+                "p": "Jw8",
+                "c": [
+                    {
+                        "label": "J",
+                        "p": "I5Te0Z1",
+                        "solves": "v115@9gBti0glRpR4C8zhR4E8g0F8BtilRpB8JeAgl"
+                    },
+                    {
+                        "label": "L",
+                        "p": "I0Z3Te0",
+                        "solves": "v115@9gA8Rpi0BtR4B8zhglR4B8RpB8g0glBtG8hlB8JeAg?l"
+                    },
+                    {
+                        "label": "O",
+                        "p": "Te0",
+                        "c": [
+                            {
+                                "label": "J/L",
+                                "p": "I5",
+                                "solves": "v115@9gBti0RpglR4A8zhRpR4C8Btg0F8DtilB8JeAgl/gB?PQLRpAtCeRpwhJeQLHegWwSxhAtLeAgl"
+                            },
+                            {
+                                "label": "Z",
+                                "p": "Z0I6",
+                                "solves": "v115@9gB8zhG8Btgli0C8R4BtRpg0B8R4ilRpB8JeAglKhg?lgWAeAPxSEegWAewhAewSDeCtxhLeAgl"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Z",
+                        "p": "Te0Z0I6",
+                        "solves": "v115@9gB8zhG8g0ilRpC8R4glBtRpB8R4i0BtB8JeAglKhw?SwhBeQawhEeAthlxhDexSAPglMeAglMhCtgWEehWAPhWFeg?lgWglLeAglKhxhAPBeAtGexhAtDeRagWQawSLeAgl"
+                    }
+                ]
+            }
+        ]
+    }
+}

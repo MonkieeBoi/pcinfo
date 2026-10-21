@@ -404,3 +404,39 @@ html[data-vt="mirror"]::view-transition-new(root) {
         transform: perspective(1200px) rotateY(-90deg);
     }
 }
+
+/* Style 3 */
+html[data-vt="spin"]::view-transition-group(root) {
+    animation: spin 7.5s cubic-bezier(0.35, 0.3, 0.3, 1) both;
+}
+
+html[data-vt="spin"]::view-transition-old(root),
+html[data-vt="spin"]::view-transition-new(root) {
+    mix-blend-mode: plus-lighter;
+    animation-duration: 7.5s;
+    animation-timing-function: cubic-bezier(0.35, 0.3, 0.3, 1);
+    animation-fill-mode: both;
+}
+
+html[data-vt="spin"]::view-transition-old(root) {
+    animation-name: fade-out;
+}
+
+html[data-vt="spin"]::view-transition-new(root) {
+    animation-name: fade-in;
+}
+
+@keyframes spin {
+    from { transform: perspective(1200px) rotateY(0deg); }
+    to   { transform: perspective(1200px) rotateY(10800deg); }
+}
+
+@keyframes fade-out {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
