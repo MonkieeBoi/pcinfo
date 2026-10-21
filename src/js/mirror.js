@@ -8,11 +8,9 @@ function apply() {
     try { localStorage.setItem("mirror", on ? "on" : "off"); } catch (e) { }
 
     if (document.documentElement.dataset.vt == "mirror") {
-        var audio = new Audio('/assets/audio/woop.mp3');
-        audio.play();
+        document.getElementById("woop").cloneNode().play();
     } else if (document.documentElement.dataset.vt == "spin") {
-        var audio = new Audio('/assets/audio/whoosh.mp3');
-        audio.play();
+        document.getElementById("whoosh").cloneNode().play();
     }
 }
 
