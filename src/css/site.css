@@ -74,6 +74,12 @@ nav {
     border: 1px solid var(--alt-bg);
 }
 
+.comment {
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
 #search-toggle {
     display: inline-flex;
     align-items: center;

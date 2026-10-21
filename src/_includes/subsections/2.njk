@@ -29,14 +29,16 @@ layout: base.njk
     {% endif %}
 {% endfor %}
 
-
 <div class="entry-grid">
 {% for title, items in matches | groupby("title") %}
     <section class="entry-card">
         <h2>{% label title %}</h2>
         {% for e in items %}
             {% if e.setup %}
-            <div>{% fumen e.setup %}</div>
+                <div>{% fumen e.setup %}</div>
+            {% endif %}
+            {% if e.comment %}
+            <p class="comment">{% label e.comment %}</p>
             {% endif %}
             {% if e.solves %}
               <details>
