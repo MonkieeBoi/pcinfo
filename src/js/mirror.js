@@ -26,3 +26,19 @@ document.addEventListener("keydown", e => {
         btn?.click();
     }
 });
+
+const STORAGE_KEY = "mirror-style";
+
+if (localStorage.getItem(STORAGE_KEY) === "mirror") {
+    document.documentElement.dataset.vt = "mirror";
+}
+
+function setTransitionStyle(style) {
+  if (style === "mirror") {
+    document.documentElement.dataset.vt = "mirror";
+    localStorage.setItem(STORAGE_KEY, "mirror");
+  } else {
+    delete document.documentElement.dataset.vt;
+    localStorage.removeItem(STORAGE_KEY);
+  }
+}

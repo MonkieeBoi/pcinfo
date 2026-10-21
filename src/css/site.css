@@ -30,7 +30,15 @@ hr {
     border-top: 2px solid var(--alt-bg);
 }
 
-header {
+button {
+    cursor: pointer;
+    padding: .5em;
+    background-color: var(--nord03);
+    border: 1px solid var(--nord01);
+    border-radius: 0.2em;
+}
+
+nav {
     background-color: var(--alt-bg);
     color: #fff;
     padding: 0 10px;
@@ -44,22 +52,15 @@ header {
     z-index: 10;
 }
 
-button {
-    background-color: var(--nord03);
-    border: none;
-}
-
 .content {
-    margin: 10px;
+    margin: 20px;
 }
 
 .scroll-x {
     overflow-x: auto;
-}
-
-.scroll-x {
-    scrollbar-width: none;
     scrollbar-color: var(--nord03) var(--nord01);
+    max-width: 100%;
+    width: fit-content;
 }
 
 #logo {
@@ -242,6 +243,7 @@ html[data-mirror="on"] .m {
         padding: var(--spacing) 0;
         vertical-align: top;
         clip-path: inset(-1em 0);
+        overflow-x: clip;
     }
 
     & .node {
@@ -298,8 +300,14 @@ html[data-mirror="on"] .m {
 
 .node {
     transition: transform 0.15s, border-color 0.15s;
-    &:hover { border-color: var(--nord08); }
-    &:active { transform: scale(0.99); }
+
+    &:hover {
+        border-color: var(--nord08);
+    }
+
+    &:active {
+        transform: scale(0.99);
+    }
 }
 
 .tree ul {
@@ -339,11 +347,12 @@ details[open]::details-content {
     opacity: 1;
 }
 
-::view-transition-old(root) {
+/* Style 1 */
+html:not([data-vt="mirror"])::view-transition-old(root) {
     animation: none;
 }
 
-::view-transition-new(root) {
+html:not([data-vt="mirror"])::view-transition-new(root) {
     animation: sweep-soft 0.3s ease-in-out both;
     mask-image: linear-gradient(to right, #000 40%, transparent 60%);
     mask-size: 250% 100%;
@@ -359,36 +368,33 @@ details[open]::details-content {
     }
 }
 
-/* TOO FUNNY ANIMATIONS
-details::details-content {
-  transform-origin: top;
-  transform: perspective(600px) rotateX(-90deg);
-  transition:
-    transform 0.4s ease,
-    block-size 0.4s ease,
-    content-visibility 0.4s allow-discrete;
-}
-details[open]::details-content {
-  transform: perspective(600px) rotateX(0);
+/* Style 2 */
+html[data-vt="mirror"]::view-transition-old(root),
+html[data-vt="mirror"]::view-transition-new(root) {
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in;
+    mix-blend-mode: normal;
 }
 
-::view-transition-old(root),
-::view-transition-new(root) {
-  animation-duration: 0.3s;
-  animation-timing-function: ease-in;
-  mix-blend-mode: normal;
+html[data-vt="mirror"]::view-transition-old(root) {
+    animation-name: flip-out;
 }
-::view-transition-old(root) { animation-name: flip-out; }
-::view-transition-new(root) {
-  animation-name: flip-in;
-  animation-delay: 0.3s;
-  animation-timing-function: ease-out;
-  animation-fill-mode: both;
+
+html[data-vt="mirror"]::view-transition-new(root) {
+    animation-name: flip-in;
+    animation-delay: 0.3s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
 }
+
 @keyframes flip-out {
-  to { transform: perspective(1200px) rotateY(90deg); }
+    to {
+        transform: perspective(1200px) rotateY(90deg);
+    }
 }
+
 @keyframes flip-in {
-  from { transform: perspective(1200px) rotateY(-90deg); }
+    from {
+        transform: perspective(1200px) rotateY(-90deg);
+    }
 }
-*/

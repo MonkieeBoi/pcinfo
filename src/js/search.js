@@ -48,6 +48,14 @@ document.addEventListener('DOMContentLoaded', () => {
     searchInput.addEventListener('input', (e) => {
         let rawQuery = e.target.value;
 
+        if (rawQuery == "mookmouth") {
+            setTransitionStyle("mirror");
+            closeSearch();
+        } else if (rawQuery == "reset") {
+            setTransitionStyle();
+            closeSearch();
+        }
+
         let normalizedQuery = normalizeText(rawQuery);
 
         searchInput.value = normalizedQuery;

@@ -6,6 +6,6 @@ document.addEventListener("click", (e) => {
     if (sub) {
         sub.classList.toggle("hidden");
     } else {
-        node.parentElement.querySelector(":scope > details").toggleAttribute("open");
+        node.parentElement.querySelector("details").toggleAttribute("open");
     }
 });
