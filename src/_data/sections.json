@@ -52,17 +52,20 @@
     "slug": "2",
     "title": "2nd",
     "subsections": [
-      { "slug": "IJLO", "title": "IJLO" },
-      { "slug": "IJLS", "title": "IJLS" },
-      { "slug": "JLSZ", "title": "JLSZ" },
-      { "slug": "JLOS", "title": "JLOS" },
-      { "slug": "TIJL", "title": "TIJL" },
-      { "slug": "TJLO", "title": "TJLO" },
-      { "slug": "TIJS", "title": "TIJS" },
-      { "slug": "TIJZ", "title": "TIJZ" },
-      { "slug": "TJOZ", "title": "TJOZ" },
-      { "slug": "TJOS", "title": "TJOS" },
-      { "slug": "TJSZ", "title": "TJSZ" }
+      { "slug": "IJLO", "title": "IJLO", "category": "no T + Even L/J" },
+      { "slug": "IJLS", "title": "IJLS", "category": "no T + Even L/J" },
+      { "slug": "JLSZ", "title": "JLSZ", "category": "no T + Even L/J" },
+      { "slug": "JLOS", "title": "JLOS", "category": "no T + Even L/J" },
+
+      { "slug": "TIJL", "title": "TIJL", "category": "T + Even L/J" },
+      { "slug": "TJLO", "title": "TJLO", "category": "T + Even L/J" },
+
+      { "slug": "TIJO", "title": "TIJO", "category": "T + Odd L/J" },
+      { "slug": "TIJS", "title": "TIJS", "category": "T + Odd L/J" },
+      { "slug": "TIJZ", "title": "TIJZ", "category": "T + Odd L/J" },
+      { "slug": "TJOS", "title": "TJOS", "category": "T + Odd L/J" },
+      { "slug": "TJOZ", "title": "TJOZ", "category": "T + Odd L/J" },
+      { "slug": "TJSZ", "title": "TJSZ", "category": "T + Odd L/J" }
     ]
   }
 ]

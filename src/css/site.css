@@ -25,6 +25,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline
+}
+
 hr {
     border: none;
     border-top: 2px solid var(--alt-bg);

@@ -3,11 +3,10 @@ layout: base.njk
 title: PC Setups
 noSearch: true
 ---
-
 <style>
-li {
+  li {
     font-size: 1.2em;
-}
+  }
 </style>
 
 <h1>{{ title }}</h1>
@@ -15,11 +14,32 @@ li {
 {% for s in sections %}
   <h2><a href="/{{ s.slug }}/">{{ s.title }}</a></h2>
 
-  {% if not s.hideSubsections %}
+  {% set cats = [] %}
+  {% for sub in s.subsections %}
+    {% if sub.category and sub.category not in cats %}
+      {% set cats = (cats.push(sub.category), cats) %}
+    {% endif %}
+  {% endfor %}
+
+  {% if cats.length > 0 %}
     <ul>
-    {% for sub in s.subsections %}
-      <li><a href="/{{ s.slug }}/{{ sub.slug }}/">{% label sub.title %}</a></li>
-    {% endfor %}
+      {% for cat in cats %}
+        <li>{{ cat }}
+          <ul>
+            {% for sub in s.subsections %}
+              {% if sub.category == cat %}
+                <li><a href="/{{ s.slug }}/{{ sub.slug }}/">{% label sub.title %}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+      {% endfor %}
+    </ul>
+  {% elseif not s.hideSubsections %}
+    <ul>
+      {% for sub in s.subsections %}
+        <li><a href="/{{ s.slug }}/{{ sub.slug }}/">{% label sub.title %}</a></li>
+      {% endfor %}
     </ul>
   {% endif %}
 {% endfor %}
