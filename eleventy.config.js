@@ -70,7 +70,12 @@ export default function(eleventyConfig) {
 
 
     eleventyConfig.addShortcode("label", (text) => {
-        const a = normalizeText(text), b = mirrorText(text);
+        const parts = String(text).split(/`([^`]*)`/);
+        const a = normalizeText(parts.join(""));
+        const b = parts
+            .map((p, i) => (i % 2 ? normalizeText(p) : mirrorText(p)))
+            .join("");
+
         const ha = colorize(esc(a));
         return a === b
             ? ha
