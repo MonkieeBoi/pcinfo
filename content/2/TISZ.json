@@ -1,0 +1,86 @@
+{
+    "JO": {
+        "title": "JO",
+        "tags": [ "normal" ],
+        "setup": "v115@MhBtHewwBtR4zhywR4KeAgl",
+        "solves": "v115@9gzhR4BthlRpg0R4B8BtglRpi0N8glJeAgl"
+    },
+    "OS": {
+        "title": "OS",
+        "tags": [ "normal" ],
+        "setup": "v115@GhwhEeQ4CewhBewwBtR4BewhAeywBtQ4BewhJeAgl",
+        "solves": "v115@9gh0BtzhglA8g0R4BtA8ilA8R4E8RpA8g0F8RpA8Je?Agl"
+    },
+    "IJS/IJZ": {
+        "title": "IJS/IJZ",
+        "tags": [ "normal" ],
+        "setup": "v115@HhzhFeywR4BtDewwR4BeBtLeAgl",
+        "solves": "v115@9gilDeg0RpD8BezhG8i0glC8BeB8RpJeAgl"
+    },
+    "JLS": {
+        "title": "JLS",
+        "tags": [ "normal" ],
+        "setup": "v115@/gBtIeBtHeywR4BezhwwR4MeAgl",
+        "solves": "v115@9gRpB8BtzhRpglB8Bti0ilE8R4G8R4g0JeAgl"
+    },
+    "ISZ 1": {
+        "title": "ISZ",
+        "tags": [ "normal" ],
+        "setup": "v115@ThBtzhR4CeBtBeR4KeAgl",
+        "solves": "v115@9gilBtRpi0Q4ywBtzhR4H8glQ4wwB8RpB8g0JeAgl"
+    },
+    "ISZ 2": {
+        "title": "ISZ",
+        "tags": [ "normal" ],
+        "setup": "v115@BhR4GeR4GeywHewwzhLeAgl",
+        "solves": "v115@9gh0R4B8Atilg0R4B8BtglRpBtC8Atzhg0BtE8RpJe?Agl9gRLhHCeglGeRaglwhQaRpCeQaglRpwhAehlEexhJeAg?l"
+    },
+    "JS": {
+        "title": "JS",
+        "tags": [ "normal" ],
+        "setup": "v115@LhwwBtFeywBtR4CezhR4KeAgl",
+        "solves": "v115@9gRpzhBthlRpR4C8Btglg0R4G8i0F8glJeAgl"
+    },
+    "JZ": {
+        "title": "JZ",
+        "tags": [ "normal" ],
+        "setup": "v115@JhR4wwFeR4ywBtEezhBtKeAgl",
+        "solves": "v115@9gRpzhR4hlRpC8R4Btglg0G8Bti0F8glJeAgl"
+    },
+    "JSZ": {
+        "title": "JSZ",
+        "tags": [ "normal" ],
+        "setup": "v115@DhR4FewwR4FeywBtEezhBtKeAgl",
+        "solves": "v115@9gRpzhB8hlRpR4C8Btglg0R4E8Bti0F8glJeAgl"
+    },
+    "IJL": {
+        "title": "IJL (I not last)",
+        "tags": [ "normal" ],
+        "setup": "v115@HhzhBtGeR4BtEeR4PeAgl",
+        "solves": "v115@9gg0R4BtywRpF8zhi0D8ilR4B8BtwwglRpJeAgl9gw?SAPQLEeBtJeCPDeCtBPEewwAtQpJeAgl"
+    },
+    ";IO": {
+        "title": ";IO",
+        "tags": [ "normal" ],
+        "setup": "v115@IhAtHeBtR4FeAtR4zhMeAgl",
+        "solves": "v115@9gilR4Bti0glA8R4RpBtwwg0D8RpzhG8ywJeAgl"
+    },
+    ";IS": {
+        "title": ";IS",
+        "tags": [ "normal" ],
+        "setup": "v115@PhQ4GeBtR4zhCeBtQ4JeAgl",
+        "solves": "v115@9gilRpBti0glR4RpwwBtA8g0R4zhH8ywC8JeAgl"
+    },
+    ";IS": {
+        "title": ";IS",
+        "tags": [ "normal" ],
+        "setup": "v115@PhQ4GeBtR4zhCeBtQ4JeAgl",
+        "solves": "v115@9gilRpBti0glR4RpwwBtA8g0R4zhH8ywC8JeAgl"
+    },
+    "Fallback": {
+        "title": "Fallback (14% T)",
+        "tags": [ "normal" ],
+        "setup": "v115@9gwhIewhIewhEewwBtAewhDeywBtJeAgl",
+        "solves": "v115@9gA8i0R4BthlA8RpT4BtglA8Rpg0R4C8glA8zhE8Je?AglIhhWhHPehlh0OeAgl+gxSwhAegWEewwh0AthWDeRpaeA?gl+ggWQpQaAeglEeQLQaAeilDeQLAeQaGegWglhWOeAgl+g?AtRaGewwQaHewwAewhHeCPOeAgl"
+    }
+}
