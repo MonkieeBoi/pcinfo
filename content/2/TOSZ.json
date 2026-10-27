@@ -1,0 +1,85 @@
+{
+    "JZ": {
+        "title": "JZ",
+        "tags": [ "normal" ],
+        "setup": "v115@LhAtEeRpAeBtR4wwBeRpAeAtR4ywKeAgl",
+        "solves": "v115@9gRpzhR4hlRph0A8R4BtglB8g0E8BtB8g0F8glJeAg?l"
+    },
+    "J<S/JOS": {
+        "title": "J<S/JOS",
+        "tags": [ "normal" ],
+        "setup": "v115@MhBtCeRpCewwBtR4RpBeywR4KeAgl",
+        "solves": "v115@9gRpzhBthlRpg0R4B8BtglB8i0G8R4E8glJeAgl"
+    },
+    "IJS": {
+        "title": "IJS",
+        "tags": [ "normal" ],
+        "setup": "v115@AhBtIeBtFeywR4AeRpCewwR4BeRpJeAgl",
+        "solves": "v115@9gQ4BtB8hlwhRpR4BtB8glwhRpg0Q4E8whB8i0C8gl?whB8JeAgl"
+    },
+    "IJL": {
+        "title": "IJL",
+        "tags": [ "normal" ],
+        "setup": "v115@AhBtIeBtywDeR4BewwRpBeR4DeRpJeAgl",
+        "solves": "v115@9gglRpB8Bei0zhE8g0glRpB8BeC8hlB8DeB8JeAgl9?gwhAeQaReRaGexhReAgl"
+    },
+    "OJL 1": {
+        "title": "OJL (J<L)",
+        "tags": [ "normal" ],
+        "setup": "v115@UhR4ywRpBeR4BewwAeRpJeAgl",
+        "solves": "v115@9gzhBthlRpg0R4DtglRpi0G8R4B8BtA8glB8JeAgl"
+    },
+    "OSZ": {
+        "title": "OSZ (O not last)",
+        "tags": [ "normal" ],
+        "setup": "v115@MhAtDeRpBeBtR4BeRpBeAtR4MeAgl",
+        "solves": "v115@9gilzhi0glDeA8ywg0B8BeD8RpB8BeC8wwRpJeAgl"
+    },
+    "T": {
+        "comment": "mirror for TIL/TIZ",
+        "title": "T",
+        "tags": [ "normal" ],
+        "setup": "v115@KhBtFeR4wwBtBeRpR4ywCeRpJeAgl",
+        "solves": "v115@9gh0R4BthlRpg0R4B8BtglRpg0E8wwglG8ywB8JeAg?l"
+    },
+    "IOS": {
+        "title": "IOS (73% T)",
+        "tags": [ "normal" ],
+        "setup": "v115@PhQ4AeRpDeBtR4RpEeBtQ4JeAgl",
+        "solves": "v115@9gRpwhglR4wwi0RpwhR4ywA8g0B8whglBtF8whhlBt?C8JeAglAhwwxSRehWHewwOeAgl/gwhQLgWAeQaFehHAPRaD?ewhxwQpFeg0wwgWxhMeAgl9gRaAeRaxSCeQawhQph0AtxhD?ewwAeAPgWFexShWNeAgl9gxhglQpxhAtCewhQawhySFehWB?tFewhQpAtQaNeAgl"
+    },
+    "ISZ/[SZ]!O": {
+        "title": "ISZ/[SZ]!O (57% T)",
+        "tags": [ "normal" ],
+        "setup": "v115@ShR4wwDeRpR4ywCeRpJeAgl",
+        "solves": "v115@9gh0R4zhRpg0R4DtglRpg0C8DtG8ilB8JeAgl/ggWw?SQpCegWQaAehWwhBeQpAeRaFeRpGehlwwLeAgl"
+    },
+    "IJO 1": {
+        "title": "IJO (50% T)",
+        "tags": [ "normal" ],
+        "setup": "v115@KhAtFeRpBtR4DeRpAtR4OeAgl",
+        "solves": "v115@9gRpilwwR4AtwhRpglA8ywBtwhF8i0whE8R4Atg0wh?JeAgl9gQpgWSaglAehWwhRpAtAehlAeyhFeQahWwhEehWwh?gWQpJeAgl9gwSglyhCeRpxSAPCeRaAeAtIeAtHehlJeAgl"
+    },
+    "IJO 2": {
+        "title": "OIJ OQB",
+        "tags": [ "oqb" ],
+        "trees": [
+            {
+                "label": "Acc OS",
+                "p": "S2O8",
+                "c": [
+                    {
+                        "label": "L",
+                        "p": "Ts5Z3",
+                        "solves": "v115@9gzhB8hlRpg0R4BtB8glRpi0G8R4B8BtA8glB8JeAg?l"
+                    },
+                    {
+                        "label": "S/Z",
+                        "p": "Ts0",
+                        "solves": "v115@9gilDeAtRpzhBeBtRpE8i0B8glC8BeAtg0B8JeAgl"
+                    }
+                ]
+            }
+        ]
+    }
+}
