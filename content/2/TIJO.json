@@ -112,7 +112,7 @@
         "tags": [ "oqb" ],
         "trees": [
             {
-                "label": "TO 2p",
+                "label": "+TO",
                 "p": "Tw8O0",
                 "c": [
                     {
@@ -133,7 +133,7 @@
                 ]
             },
             {
-                "label": "Acc I",
+                "label": "+I",
                 "p": "I0",
                 "c": [
                     {
@@ -181,7 +181,7 @@
                 ]
             },
             {
-                "label": "Acc J,I",
+                "label": "+J+I",
                 "p": "Js7",
                 "c": [
                     {

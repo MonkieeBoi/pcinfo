@@ -113,7 +113,6 @@
         "tags": [ "oqb" ],
         "trees": [
             {
-                "label": "IS 2p",
                 "p": "Iv0 S3",
                 "c": [
                     {
@@ -129,7 +128,6 @@
                 ]
             },
             {
-                "label": "TO 2p",
                 "p": "O0T5",
                 "c": [
                     {
@@ -151,7 +149,7 @@
         "tags": [ "oqb" ],
         "trees": [
             {
-                "label": "OS 2p",
+                "label": "+OS",
                 "p": "S2O8",
                 "c": [
                     {
@@ -167,7 +165,7 @@
                 ]
             },
             {
-                "label": "IS 2p",
+                "label": "+IS",
                 "p": "I4S2",
                 "c": [
                     {
@@ -183,7 +181,7 @@
                 ]
             },
             {
-                "label": "Acc I/O (only place one)",
+                "label": "+IO (only place one)",
                 "p": "O8I4",
                 "c": [
                     {
@@ -199,7 +197,7 @@
                         "solves": "v115@9gRph0R4AthlwhRpg0R4BtA8glwhB8g0B8AtC8whH8?glwhJeAgl"
                     },
                     {
-                        "label": "not I 2p",
+                        "label": "Otherwise",
                         "c": [
                             {
                                 "label": "O,I",

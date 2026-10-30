@@ -54,14 +54,14 @@
                         "solves": "v115@9gA8g0R4RpzhA8i0C8BtglH8BtA8R4A8RpA8ilJeAg?H"
                     },
                     {
-                        "label": "not L",
+                        "label": "Otherwise",
                         "p": "J1 L7",
                         "solves": "v115@9gA8RphlzhAtA8Rpwwglg0R4BtB8ywi0AtE8glR4C8?JeAgH9gA8g0RpilR4AtA8i0zhBtB8RpglwwR4AtE8ywC8Je?AgH9gA8Rpg0ilR4AtA8Rpg0zhBtB8h0glwwR4AtE8ywC8Je?AgH"
                     }
                 ]
             },
             {
-                "label": "Acc L/J (only place one)",
+                "label": "+L/+J (only place one)",
                 "p": "J0 L7",
                 "c": [
                     {
@@ -70,7 +70,7 @@
                         "solves": "v115@9gRpg0zhR4AtRpi0glR4BtH8AtD8ilD8JeAgH"
                     },
                     {
-                        "label": "not L (shift for acc J)",
+                        "label": "Otherwise (+J shift)",
                         "base": "L7",
                         "p": "Iv0J1",
                         "solves": "v115@9gA8RphlzhAtA8Rpwwglg0R4BtB8ywi0AtE8glR4C8?JeAgH9gA8g0RpilR4AtA8i0zhBtB8RpglwwR4AtE8ywC8Je?AgH9gA8Rpg0ilR4AtA8Rpg0zhBtB8h0glwwR4AtE8ywC8Je?AgH"
@@ -88,7 +88,6 @@
                 "solves": "v115@9gzhR4BtRpilR4glh0RpglE8g0F8ilg0BtA8JeAglB?hwSAeQpgWEexSAeBPOeglxwAehlKeAgl9gxwh0wShHQaBeA?txwhWAehlBeAtEeAPFegWRLAPhWKeAgl"
             },
             {
-                "label": "JL 2p",
                 "p": "J0L7",
                 "c": [
                     {
@@ -104,7 +103,7 @@
                 ]
             },
             {
-                "label": "IL first",
+                "label": "+L+I",
                 "p": "Le0",
                 "c": [
                     {
@@ -167,7 +166,6 @@
                 "solves": "v115@9gC8R4ilRpB8R4g0glBtRpC8zhi0D8i0Btg0JeAglC?hhlAtRpDewSwhBeQaQpNexSAPhWKeAglDhwSCPDexhwSgWw?hwSCeywBexSDewhQpQaBtKeAgl"
             },
             {
-                "label": "Acc J",
                 "p": "Je0",
                 "c": [
                     {
@@ -188,7 +186,6 @@
                 ]
             },
             {
-                "label": "Acc L",
                 "p": "Lw8",
                 "c": [
                     {

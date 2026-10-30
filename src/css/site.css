@@ -184,7 +184,6 @@ html[data-mirror="on"] .m {
 .tree .p-S,
 .tree .p-Z {
     font-family: MinoFont;
-    font-size: 1.6em;
 }
 
 
@@ -231,6 +230,7 @@ html[data-mirror="on"] .m {
     position: relative;
     padding: 5px;
     box-shadow: var(--shadow-sm);
+    font-size: 1.3em;
 }
 
 .node img.fumen {

@@ -88,7 +88,7 @@
         "tags": [ "oqb" ],
         "trees": [
             {
-                "label": "Acc S/T,S",
+                "label": "+S/+T+S",
                 "p": "Sv8T6",
                 "c": [
                     {
@@ -97,14 +97,14 @@
                         "solves": "v115@9gilwhQ4Bti0glRpwhR4BtA8g0A8RpwhilF8whglQ4?D8JeAgl"
                     },
                     {
-                        "label": "not S",
+                        "label": "Otherwise",
                         "p": "Js7",
                         "solves": "v115@9ghlRpR4AtC8h0RpzhB8g0jlBtC8g0hlR4AtD8JeAg?l9gBtHeBPleAgl9ghWBeRLgWCeBtIehlBeRpFeQLAeQpNeA?gl9ghWQaDtCeAPgWwhAtg0yhBewSQaAeglwwQLQaCewSwhR?ahHNeAgl9gCtQLwhhWCewhQaglQLAewwhlDegWwSgHQaQLC?eRayhg0NeAgl9gxSAeAtQaGeQLQahHDeRaAewhwwh0GewwO?eAgl"
                     }
                 ]
             },
             {
-                "label": "Acc J",
+                "label": "+J",
                 "p": "Jw8",
                 "c": [
                     {
@@ -113,14 +113,14 @@
                         "solves": "v115@9gi0glQ4BtywA8RpglR4BtwwB8RpzhE8g0hlQ4D8Je?Agl9gBPAeAtgHxSAPhlAeQaQpglwSAPQaQpglBeQaglBthl?FeQpglwSNeAgl9gRpQaAPxhxwCeQpQLxSgWQpDeglQawSgW?AeQpEegWSaNeAgl9gCPQaGegWglRpwhEeRaQpxhFexhglQa?NeAgl"
                     },
                     {
-                        "label": "not S",
+                        "label": "Otherwise",
                         "p": "S6Ts7",
                         "solves": "v115@9ghlRpR4AtC8h0RpzhB8g0jlBtC8g0hlR4AtD8JeAg?l9gBtHeBPleAgl9ghWBeRLgWCeBtIehlBeRpFeQLAeQpNeA?gl9ghWQaDtCeAPgWwhAtg0yhBewSQaAeglwwQLQaCewSwhR?ahHNeAgl9gCtQLwhhWCewhQaglQLAewwhlDegWwSgHQaQLC?eRayhg0NeAgl9gxSAeAtQaGeQLQahHDeRaAewhwwh0GewwO?eAgl"
                     }
                 ]
             },
             {
-                "label": "Acc TJ",
+                "label": "+TJ",
                 "p": "J0T6",
                 "c": [
                     {
@@ -146,7 +146,7 @@
                 "solves": "v115@9gA8zhh0R4AtB8ilg0R4BtB8glRpywAtD8Rpg0wwC8?JeAgl+gxhAewwAewhAeAPQaCeQaAtwhAegWRaCegWwhQaBe?whDegWQpgWQaMeAgl+gRaAeQLAPQLQaQpwhBewhglwhAeQL?yhBewhglxhAewhQaDeg0xhgWMeAgl+gCtAeRaQLwSQaBegl?AtAeQLglgWRaBeBtyhgWEeRLwSAtMeAgl"
             },
             {
-                "label": "Acc T/L",
+                "label": "+T/+L",
                 "p": "L7Ts5",
                 "c": [
                     {
@@ -155,7 +155,7 @@
                         "solves": "v115@9gilRph0R4AtglB8Rpg0R4BtH8AtA8zhA8g0D8JeAg?l"
                     },
                     {
-                        "label": "not I",
+                        "label": "Otherwise",
                         "p": "J0",
                         "solves": "v115@9gQ4zhh0R4AtR4ilg0R4BtA8Q4glRpC8AtD8Rpg0D8?JeAgl9gAPgl0hCeBPAeAtwwwhEegHQahWHeRpOeAgl9gRaA?eRahHCeQaAewhHehlh0YeAgl"
                     }
@@ -172,7 +172,7 @@
                 "solves": "v115@9gBthlB8R4RpA8BtglA8R4g0RpG8i0C8glB8zhJeAg?l"
             },
             {
-                "label": "Acc J",
+                "label": "+J",
                 "p": "Jw8",
                 "c": [
                     {
@@ -194,7 +194,7 @@
         "tags": [ "oqb" ],
         "trees": [
             {
-                "label": "Acc T",
+                "label": "+T",
                 "p": "T7",
                 "c": [
                     {
@@ -203,14 +203,14 @@
                         "solves": "v115@9gh0R4RpBtB8g0R4A8RpglBtA8g0C8zhF8ilC8JeAg?l"
                     },
                     {
-                        "label": "not L",
+                        "label": "Otherwise",
                         "p": "J0Lw8",
                         "solves": "v115@9gilR4BtC8glg0R4RpBtB8ilzhC8gli0RpD8JeAgl9?giWwDQLRaCeAtAeRLhWxSBeAthWxhhlCeAthHAPRaNeAgl"
                     }
                 ]
             },
             {
-                "label": "Acc S",
+                "label": "+S",
                 "p": "S0",
                 "c": [
                     {
@@ -236,7 +236,7 @@
                 ]
             },
             {
-                "label": "Acc L,J",
+                "label": "+L+J",
                 "p": "L7",
                 "c": [
                     {
@@ -245,7 +245,7 @@
                         "solves": "v115@9gglRpBtB8g0R4zhC8i0glRpA8BtA8R4A8hlH8JeAg?l"
                     },
                     {
-                        "label": "not L",
+                        "label": "Otherwise",
                         "p": "J0T1",
                         "solves": "v115@9gRpDezhRpA8BeilR4D8i0R4D8Beglg0C8JeAgl/gh?lwhg0wwh0QpCeglwhAtxwxSDeQLAewhAewSDeglwhwwwhMe?Agl/ghlwhAPQLhHwSCeglQpAPRaRpDeg0whQaAeQpDewwg0?QLQaMeAgl"
                     }
@@ -258,7 +258,7 @@
         "tags": [ "oqb" ],
         "trees": [
             {
-                "label": "Acc S",
+                "label": "+S",
                 "p": "Sv8",
                 "c": [
                     {
@@ -279,7 +279,7 @@
                 ]
             },
             {
-                "label": "Acc J",
+                "label": "+J",
                 "p": "Jw8",
                 "c": [
                     {
@@ -300,7 +300,7 @@
                 ]
             },
             {
-                "label": "Acc L",
+                "label": "+L",
                 "p": "Le0",
                 "c": [
                     {
@@ -348,7 +348,7 @@
         "tags": [ "oqb" ],
         "trees": [
             {
-                "label": "Acc J",
+                "label": "+J",
                 "p": "Jw8",
                 "c": [
                     {
@@ -369,7 +369,7 @@
                 ]
             },
             {
-                "label": "Acc T",
+                "label": "+T",
                 "p": "T7",
                 "c": [
                     {
@@ -422,7 +422,7 @@
                 ]
             },
             {
-                "label": "Acc L,S",
+                "label": "+L+S",
                 "p": "Le0",
                 "c": [
                     {

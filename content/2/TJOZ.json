@@ -100,7 +100,7 @@
         "tags": [ "oqb" ],
         "trees": [
             {
-                "label": "Acc J",
+                "label": "+J",
                 "p": "J0",
                 "c": [
                     {
@@ -109,14 +109,14 @@
                         "solves": "v115@9gQ4zhRph0A8R4BtglRpg0C8Q4ilH8BtB8g0B8JeAg?l+gRphlhWRLFeRpPeRaOeAgl"
                     },
                     {
-                        "label": "Not J",
+                        "label": "Otherwise",
                         "p": "O8Tw6",
                         "solves": "v115@9gQ4Bthlwhh0RpR4Btglwhg0A8RpA8Q4BtglwhG8Bt?whg0C8JeAgl9ggHxSQaglQpxhBexShlAtg0whDewSAegWAe?whGegWglQpgWMeAglBhhlFeBPJehlXeAgl"
                     }
                 ]
             },
             {
-                "label": "Acc T/O",
+                "label": "+T/+O",
                 "p": "Tw8 O0",
                 "c": [
                     {
@@ -125,7 +125,7 @@
                         "solves": "v115@9gRpBtzhR4RpglBtA8g0R4C8glI8hlB8i0A8JeAgl"
                     },
                     {
-                        "label": "Not J",
+                        "label": "Otherwise",
                         "p": "J2",
                         "solves": "v115@9gRpQ4Bthlwhh0RpR4Btglwhg0D8Q4BtglwhG8Btwh?g0A8JeAgl/ggHxSQaAtwwxhBexShWAtg0whDewSAegWglQp?GegWglQpgWKeAglDhhWFeBtJehWVeAgl"
                     }
@@ -138,7 +138,7 @@
         "tags": [ "oqb" ],
         "trees": [
             {
-                "label": "Acc O",
+                "label": "+O",
                 "p": "O0",
                 "c": [
                     {
@@ -154,7 +154,7 @@
                 ]
             },
             {
-                "label": "Acc Z",
+                "label": "+Z",
                 "p": "Z2",
                 "c": [
                     {
@@ -170,7 +170,7 @@
                 ]
             },
             {
-                "label": "Acc J",
+                "label": "+J",
                 "p": "Jw8",
                 "c": [
                     {
@@ -224,7 +224,6 @@
         "tags": [ "oqb" ],
         "trees": [
             {
-                "label": "Acc O",
                 "p": "O8",
                 "c": [
                     {
@@ -240,7 +239,6 @@
                 ]
             },
             {
-                "label": "Acc T",
                 "p": "Te0",
                 "c": [
                     {
@@ -256,7 +254,6 @@
                 ]
             },
             {
-                "label": "ZT 2p",
                 "p": "Z7Tw8",
                 "c": [
                     {
@@ -272,7 +269,6 @@
                 ]
             },
             {
-                "label": "ZO 2p",
                 "p": "Z7O0",
                 "c": [
                     {
@@ -315,11 +311,11 @@
                 ]
             },
             {
-                "label": "TO 2p (I,O,J)",
+                "label": "I,O,J",
                 "p": "Te0O8",
                 "c": [
                     {
-                        "label": "L,S",
+                        "label": "L/S",
                         "p": "Z0",
                         "solves": "v115@9gB8Beilg0RpC8zhg0RpB8BeA8i0C8Dei0B8JeAgl/?gxhRaAtFeRpwhwwEeR4APgWEeR4hlAPNeAgl"
                     },
@@ -331,11 +327,11 @@
                 ]
             },
             {
-                "label": "TZ 2p (I,O,J)",
+                "label": "I,O,J",
                 "p": "Te0Z0",
                 "c": [
                     {
-                        "label": "L,S",
+                        "label": "L/S",
                         "p": "O8",
                         "solves": "v115@9gB8Beilg0RpC8zhg0RpB8BeA8i0C8Dei0B8JeAgl/?gxhRaAtFeRpwhwwEeR4APgWEeR4hlAPNeAgl"
                     },
