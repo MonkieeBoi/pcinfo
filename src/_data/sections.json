@@ -70,7 +70,9 @@
       { "slug": "TIJZ", "title": "TIJZ", "category": "T + Odd L/J" },
       { "slug": "TJOS", "title": "TJOS", "category": "T + Odd L/J" },
       { "slug": "TJOZ", "title": "TJOZ", "category": "T + Odd L/J" },
-      { "slug": "TJSZ", "title": "TJSZ", "category": "T + Odd L/J" }
+      { "slug": "TJSZ", "title": "TJSZ", "category": "T + Odd L/J" },
+
+      { "slug": "TTJL", "title": "TTJL" }
     ]
   }
 ]

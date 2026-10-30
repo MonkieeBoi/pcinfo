@@ -3,6 +3,30 @@ layout: base.njk
 ---
 <h1>{{ section.title }}</h1>
 
+<style>
+  li {
+    font-size: 1.2em;
+  }
+</style>
+
+{% set cats = [] %}
 {% for sub in section.subsections %}
-  <h2><a href="/{{ section.slug }}/{{ sub.slug }}/">{% label sub.title %}</a></h2>
+    {% set c = sub.category or 'Duplicates' %}
+    {% if c not in cats %}
+        {% set cats = (cats.push(c), cats) %}
+    {% endif %}
 {% endfor %}
+
+<ul>
+    {% for cat in cats %}
+        <li>{{ cat }}
+            <ul>
+                {% for sub in section.subsections %}
+                    {% if (sub.category or 'Duplicates') == cat %}
+                        <li><a href="/{{ section.slug }}/{{ sub.slug }}/">{% label sub.title %}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+</ul>
