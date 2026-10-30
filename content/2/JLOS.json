@@ -41,14 +41,14 @@
         "setup": "v115@PhhlRpBeR4CeglRpAeR4DeglJeAgl",
         "solves": "v115@9gRpilR4whh0RpglAtR4g0whD8BtB8g0whg0C8AtB8?h0whg0A8JeAgl/gBtglwSgHAeRLBeAtQpAewSgWwhDeRpCe?wwDeglBeBPwhLeAgl"
     },
-    "LO": {
-        "title": "LO",
-        "tags": [ "normal" ],
-        "setup": "v115@Ohg0GeR4g0RpDeR4h0RpJeAgl",
-        "solves": "v115@9gBtR4zhRpglBtg0ilA8RpglR4g0glE8hlh0F8JeAg?l9gxShHxwh0BeglAegWAPAtxwDeRLAPAtFeglgWAPPeAgl9?gxwQpwhBPDeglAeglAeAPEeAtglBeAPEeQaxSQaPeAgl"
-    },
     "JO": {
         "title": "JO",
+        "tags": [ "normal" ],
+        "setup": "v115@OhglQ4AeRpEeglR4RpEehlQ4JeAgl",
+        "solves": "v115@9gilzhi0glDeRpB8g0B8Beg0RpE8Bei0C8JeAgl9gx?hAexhh0CewhQpBtQ4AtQpEexhQLgWQpEeglAtgWOeAgl9gQ?pgWSaEeRpglAewSQLAPEehlRpAPEewhQaQpwhAPMeAgl9gw?Sglg0BehHCexSwhQpAeglFeQpAthWFeRpQawSglMeAgl9gQ?pgWgHBeg0whCeRpQawSAeQpwwEewSAPhlwwEexSAPhWMeAg?l"
+    },
+    "LO": {
+        "title": "LO",
         "tags": [ "normal" ],
         "setup": "v115@Ohg0GeR4g0RpDeR4h0RpJeAgl",
         "solves": "v115@9gBtR4zhRpglBtg0ilA8RpglR4g0glE8hlh0F8JeAg?l9gxShHxwh0BeglAegWAPAtxwDeRLAPAtFeglgWAPPeAgl9?gxwQpwhBPDeglAeglAeAPEeAtglBeAPEeQaxSQaPeAgl"

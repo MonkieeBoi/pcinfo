@@ -43,17 +43,34 @@ button {
 }
 
 nav {
-    background-color: var(--alt-bg);
-    color: #fff;
-    padding: 0 10px;
+    background-color: rgba(59, 66, 82, 0.85);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 8px 16px;
     margin: 0;
-    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: sticky;
     top: 0;
     z-index: 10;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+nav button {
+    background-color: var(--nord02);
+    border: 1px solid var(--nord03);
+    border-radius: var(--radius-md);
+    padding: 6px 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+nav button:hover {
+    background-color: var(--nord03);
+    border-color: var(--nord08);
 }
 
 .content {
@@ -75,20 +92,14 @@ nav {
 }
 
 .fumen {
-    border: 1px solid var(--alt-bg);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-sm);
 }
 
 .comment {
     margin-top: 2px;
     margin-bottom: 5px;
     font-size: 1.1em;
-}
-
-#search-toggle {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 6px;
 }
 
 rangefind-search.rf-search {
@@ -219,11 +230,13 @@ html[data-mirror="on"] .m {
     border: solid var(--line-width) var(--line-color);
     position: relative;
     padding: 5px;
+    box-shadow: var(--shadow-sm);
 }
 
 .node img.fumen {
     display: block;
     border: none;
+    box-shadow: none;
 }
 
 .tree {
@@ -357,6 +370,14 @@ details[open]::details-content {
     opacity: 1;
 }
 
+#mirror-toggle svg {
+    transition: transform 0.3s cubic-bezier(.4, 0, .2, 0.5);
+}
+
+html[data-mirror="on"] #mirror-toggle svg {
+    transform: rotate(180deg);
+}
+
 /* Style 1 */
 html:not([data-vt="mirror"])::view-transition-old(root) {
     animation: none;
@@ -431,16 +452,31 @@ html[data-vt="spin"]::view-transition-new(root) {
 }
 
 @keyframes spin {
-    from { transform: perspective(1200px) rotateY(0deg); }
-    to   { transform: perspective(1200px) rotateY(10800deg); }
+    from {
+        transform: perspective(1200px) rotateY(0deg);
+    }
+
+    to {
+        transform: perspective(1200px) rotateY(10800deg);
+    }
 }
 
 @keyframes fade-out {
-    from { opacity: 1; }
-    to   { opacity: 0; }
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
 }
 
 @keyframes fade-in {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
