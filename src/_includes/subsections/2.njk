@@ -38,16 +38,9 @@ layout: base.njk
                 <div>{% fumen e.setup %}</div>
             {% endif %}
             {% if e.comment %}
-            <p class="comment">{% label e.comment %}</p>
+                <p class="comment">{% label e.comment %}</p>
             {% endif %}
-            {% if e.solves %}
-              <details>
-                  <summary>Solves ({{ e.solves | fumenPages | length }})</summary>
-                {% for p in e.solves | fumenPages %}
-                  {% fumen e.solves, {page: p} %}
-                {% endfor %}
-              </details>
-            {% endif %}
+            {% solves e.solves %}
         {% endfor %}
     </section>
 {% endfor %}

@@ -1,5 +1,5 @@
 import { Board } from "./board.js";
-import { fumenSvg, fumenPageCount } from "./fumen-svg.js";
+import { fumenSvg, renderSolves } from "./fumen-svg.js";
 
 export function renderTree(root, { img, label }) {
   const both = (make) => {
@@ -11,14 +11,10 @@ export function renderTree(root, { img, label }) {
     const start = node.base ? new Board().applyNotation(node.base) : parent;
     const board = node.p ? start.greyed().applyNotation(node.p) : start;
 
-    let solves = "";
-    if (node.solves) {
-      const n = fumenPageCount(node.solves);
-      const pics = Array.from({ length: n }, (_, i) =>
-        both(m => img(fumenSvg(node.solves, { page: i + 1, mirror: m })))
-      ).join("");
-      solves = `<details class="solves"><summary>Solves (${n})</summary>${pics}</details>`;
-    }
+    const solves = node.solves
+      ? renderSolves(node.solves, (page) =>
+          both((mirror) => img(fumenSvg(node.solves, { page, mirror }))))
+      : "";
 
     const head = node.label
       ? both(m => label(node.label, m)) + "<br>"

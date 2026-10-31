@@ -355,6 +355,10 @@ details {
     margin-left: 5px;
 }
 
+summary svg {
+    vertical-align: middle;
+}
+
 details::details-content {
     block-size: 0;
     opacity: 0;

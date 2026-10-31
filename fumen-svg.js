@@ -95,3 +95,11 @@ export function fumenPageCount(input) {
     const code = input.split(/\s+/).filter(Boolean)[0];
     return decoder.decode(code).length;
 }
+
+const ICON = `<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" fill="currentColor"/><path d="m14.5 11.5 2 2 3.5-4" stroke="var(--bg, #fff)"/></svg>`;
+
+export function renderSolves(code, renderPage) {
+  const n = fumenPageCount(code);
+  const pics = Array.from({ length: n }, (_, i) => renderPage(i + 1)).join("");
+  return `<details class="solves"><summary>${ICON} (${n})</summary>${pics}</details>`;
+}

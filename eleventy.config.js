@@ -1,6 +1,6 @@
 import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 import rangefindPlugin from "eleventy-plugin-rangefind";
-import { fumenPageCount, fumenSvg } from "./fumen-svg.js";
+import { fumenPageCount, fumenSvg, renderSolves } from "./fumen-svg.js";
 import { renderTree } from "./tree.js";
 
 const esc = (s) =>
@@ -26,6 +26,11 @@ function mirrorText(text) {
     );
 }
 
+export const both = (make) => {
+    const a = make(false), b = make(true);
+    return a === b ? a : `<span class="n">${a}</span><span class="m">${b}</span>`;
+};
+
 const img = (svg) =>
     `<img class="fumen" alt="fumen" src="data:image/svg+xml;base64,${Buffer.from(svg).toString("base64")
     }">`;
@@ -50,37 +55,24 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/css");
     eleventyConfig.addPassthroughCopy("src/assets");
 
-    eleventyConfig.addShortcode("fumen", (code, opts = {}) => {
-        const { rows = 4, lock = true, page = null } = opts;
-        return (
-            `<span class="n">${img(fumenSvg(code, { rows, lock, page, mirror: false }))
-            }</span>` +
-            `<span class="m">${img(fumenSvg(code, { rows, lock, page, mirror: true }))
-            }</span>`
-        );
-    });
+    eleventyConfig.addShortcode("fumen", (code, { rows = 4, lock = true, page = null } = {}) =>
+        both((mirror) => img(fumenSvg(code, { rows, lock, page, mirror })))
+    );
 
+    eleventyConfig.addShortcode("rawFumen", (code, { rows = 4, lock = true, page = null } = {}) =>
+        img(fumenSvg(code, { rows, lock, page, mirror: false }))
+    );
 
-    eleventyConfig.addShortcode("rawFumen", (code, opts = {}) => {
-        const { rows = 4, lock = true, page = null } = opts;
-        return (
-            img(fumenSvg(code, { rows, lock, page, mirror: false }))
-        );
-    });
-
-
-    eleventyConfig.addShortcode("label", (text) => {
-        const parts = String(text).split(/`([^`]*)`/);
-        const a = normalizeText(parts.join(""));
-        const b = parts
-            .map((p, i) => (i % 2 ? normalizeText(p) : mirrorText(p)))
-            .join("");
-
-        const ha = colorize(esc(a));
-        return a === b
-            ? ha
-            : `<span class="n">${ha}</span><span class="m">${colorize(esc(b))}</span>`;
-    });
+    eleventyConfig.addShortcode("label", (text) =>
+        both((mirror) =>
+            colorize(esc(
+                String(text)
+                    .split(/`([^`]*)`/)
+                    .map((p, i) => (i % 2 || !mirror ? normalizeText(p) : mirrorText(p)))
+                    .join("")
+            ))
+        )
+    );
 
 
     eleventyConfig.addShortcode("rawLabel", (text) => {
@@ -94,6 +86,19 @@ export default function(eleventyConfig) {
             ? a
             : `${a}/${b}`;
     });
+
+    eleventyConfig.addShortcode("solves", (code) =>
+        code
+            ? renderSolves(code, (page) =>
+                both((mirror) => img(fumenSvg(code, { page, mirror }))))
+            : ""
+    );
+
+    eleventyConfig.addShortcode("raw_solves", (code) =>
+        code
+            ? renderSolves(code, (page) => img(fumenSvg(code, { page, mirror: false })))
+            : ""
+    );
 
     eleventyConfig.addShortcode("tree", node =>
         renderTree(node, {
