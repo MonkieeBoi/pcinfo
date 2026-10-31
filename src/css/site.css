@@ -82,6 +82,7 @@ nav button:hover {
     scrollbar-color: var(--nord03) var(--nord01);
     max-width: 100%;
     width: fit-content;
+    margin-bottom: 20px;
 }
 
 #logo {

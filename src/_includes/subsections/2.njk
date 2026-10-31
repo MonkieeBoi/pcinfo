@@ -3,25 +3,7 @@ layout: base.njk
 ---
 <h1 class="hidden" data-rangefind-body data-rangefind-meta="title">{% normal_label sub.title %} 2nd</h1>
 <h1>{% label sub.title %} 2nd</h1>
-
-<div class="scroll-x">
-    <table>
-        {% for e in entries | withTag("1min") %}
-            {% if e.section == sub.section and e.subsection == sub.slug %}
-                <tr>
-                    <th><h3>{% label e.title %}</h3></th>
-                    {% if e.setup %}
-                        <th>{% fumen e.setup, {page: 1} %}</th>
-                        <th>{% fumen e.setup, {page: 2} %}</th>
-                        <th>{% fumen e.setup, {page: 3} %}</th>
-                    {% endif %}
-                </tr>
-            {% endif %}
-        {% endfor %}
-    </table>
-</div>
 <br>
-
 {% set matches = [] %}
 {% for e in entries | withTag("normal") %}
     {% if e.section == sub.section and e.subsection == sub.slug %}

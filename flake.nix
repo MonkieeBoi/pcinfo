@@ -1,5 +1,5 @@
 {
-  description = "PC Info Australia Wiki";
+  description = "PC Cafe";
 
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
